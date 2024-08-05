@@ -1,0 +1,624 @@
+2024-07-19 11:47:24.689 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 11:47:26.707 - Main - INFO : Scanned device list: []
+2024-07-19 11:47:26.707 - Main - WARNING : Can not found any device -> Down interfaces: ['172.17.0.1']
+
+2024-07-19 13:59:42.703 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 13:59:44.722 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 13:59:44.722 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 14:05:06.  4 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 14:05:08. 23 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 14:05:08. 23 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 14:05:08. 39 - Main - INFO : TMY_Device.__init__()
+2024-07-19 14:06:57.764 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 14:06:59.792 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 14:06:59.792 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 14:06:59.809 - Main - INFO : TMY_Device.__init__()
+2024-07-19 14:11:38.466 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 14:11:40.485 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 14:11:40.485 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 14:11:40.501 - Main - INFO : TMY_Device.__init__()
+2024-07-19 14:36:04.751 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 14:36:06.769 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 14:36:06.769 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 14:36:06.785 - Main - INFO : TMY_Device.__init__()
+2024-07-19 14:43:02.123 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 14:43:04.151 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 14:43:04.151 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 14:43:04.169 - Main - INFO : TMY_Device.__init__()
+2024-07-19 14:43:04.169 - Main - INFO : Available methods in TLKCoreService: ['__annotations__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_is_coroutine', 'func_closure', 'func_code', 'func_defaults', 'func_dict', 'func_doc', 'func_globals', 'func_name']
+2024-07-19 14:53:02.763 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 14:53:04.787 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 14:53:04.787 - Main - INFO : No serial numbers given. Logging Scan Results Only
+2024-07-19 14:53:04.788 - Main - INFO : Dev_0: D2245E027-28, 192.168.137.75, 9
+2024-07-19 14:53:04.788 - Main - INFO : Dev_1: D2245E028-28, 192.168.137.218, 9
+2024-07-19 14:53:04.788 - Main - INFO : Dev_2: UD-BD22470039-24, 192.168.137.98, 15
+2024-07-19 15:00:12.143 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 15:00:14.170 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 15:00:14.170 - Main - INFO : No serial numbers given. Logging Scan Results Only
+2024-07-19 15:00:14.171 - Main - INFO : Dev_0: D2245E028-28, 192.168.137.218, 9
+2024-07-19 15:00:14.171 - Main - INFO : Dev_1: D2245E027-28, 192.168.137.75, 9
+2024-07-19 15:00:14.171 - Main - INFO : Dev_2: UD-BD22470039-24, 192.168.137.98, 15
+2024-07-19 15:00:14.171 - Main - INFO : Looking for Devices with serial numbers: ['UD-BD22470039-24', 'D2245E028-28', 'D2245E027-28']
+2024-07-19 15:00:14.171 - Main - INFO : TMY_service.__init__()
+2024-07-19 15:00:14.171 - Main - INFO : Creating TLKCoreService object with path: ./TLKCore/lib
+2024-07-19 15:00:14.171 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 15:00:16.188 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 15:00:16.188 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 15:00:16.205 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:00:16.205 - Main - INFO : Available methods in TLKCoreService: ['DeInitDev', '_TLKCoreService__comm', '_TLKCoreService__createDirectory', '_TLKCoreService__deviceList', '_TLKCoreService__initMsg', '_TLKCoreService__log_path_default', '_TLKCoreService__logger', '_TLKCoreService__parseScanedResult', '_TLKCoreService__running', '_TLKCoreService__scan_info', '_TLKCoreService__version', '_TLKCoreService__web_callback', '_TLKCoreService__web_client_id', '__cinit__', '__class__', '__dealloc__', '__del__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'getScanInfo', 'initDev', 'queryTLKCoreVer', 'running', 'scanDevices', 'setWebCallback', 'version']
+2024-07-19 15:00:16.205 - Main - INFO : BB5G.__init__()
+2024-07-19 15:00:16.208 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 15:00:16.208 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 15:00:16.208 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 15:00:16.309 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:00:16.310 - Main - INFO : Available methods in TLKCoreService: ['DeInitDev', '_TLKCoreService__comm', '_TLKCoreService__createDirectory', '_TLKCoreService__deviceList', '_TLKCoreService__initMsg', '_TLKCoreService__log_path_default', '_TLKCoreService__logger', '_TLKCoreService__parseScanedResult', '_TLKCoreService__running', '_TLKCoreService__scan_info', '_TLKCoreService__version', '_TLKCoreService__web_callback', '_TLKCoreService__web_client_id', '__cinit__', '__class__', '__dealloc__', '__del__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'getScanInfo', 'initDev', 'queryTLKCoreVer', 'running', 'scanDevices', 'setWebCallback', 'version']
+2024-07-19 15:00:16.310 - Main - INFO : BB5G.__init__()
+2024-07-19 15:00:16.314 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 15:00:16.314 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 15:00:16.315 - Main - INFO : Device D2245E028-28 created
+2024-07-19 15:00:16.315 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 15:00:16.408 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:00:16.408 - Main - INFO : Available methods in TLKCoreService: ['DeInitDev', '_TLKCoreService__comm', '_TLKCoreService__createDirectory', '_TLKCoreService__deviceList', '_TLKCoreService__initMsg', '_TLKCoreService__log_path_default', '_TLKCoreService__logger', '_TLKCoreService__parseScanedResult', '_TLKCoreService__running', '_TLKCoreService__scan_info', '_TLKCoreService__version', '_TLKCoreService__web_callback', '_TLKCoreService__web_client_id', '__cinit__', '__class__', '__dealloc__', '__del__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'getScanInfo', 'initDev', 'queryTLKCoreVer', 'running', 'scanDevices', 'setWebCallback', 'version']
+2024-07-19 15:00:16.409 - Main - INFO : BB5G.__init__()
+2024-07-19 15:00:16.413 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 15:00:16.413 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 15:00:16.413 - Main - INFO : Device D2245E027-28 created
+2024-07-19 15:14:04.470 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 15:14:06.488 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 15:14:06.488 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 15:14:06.504 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:14:06.504 - Main - INFO : Available methods in TLKCoreService: ['DeInitDev', '_TLKCoreService__comm', '_TLKCoreService__createDirectory', '_TLKCoreService__deviceList', '_TLKCoreService__initMsg', '_TLKCoreService__log_path_default', '_TLKCoreService__logger', '_TLKCoreService__parseScanedResult', '_TLKCoreService__running', '_TLKCoreService__scan_info', '_TLKCoreService__version', '_TLKCoreService__web_callback', '_TLKCoreService__web_client_id', '__cinit__', '__class__', '__dealloc__', '__del__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'getScanInfo', 'initDev', 'queryTLKCoreVer', 'running', 'scanDevices', 'setWebCallback', 'version']
+2024-07-19 15:14:06.504 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 15:14:06.505 - Main - INFO : BB5G.__init__()
+2024-07-19 15:14:06.508 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 15:14:06.508 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 15:14:06.508 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 15:14:06.567 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:14:06.567 - Main - INFO : Available methods in TLKCoreService: ['DeInitDev', '_TLKCoreService__comm', '_TLKCoreService__createDirectory', '_TLKCoreService__deviceList', '_TLKCoreService__initMsg', '_TLKCoreService__log_path_default', '_TLKCoreService__logger', '_TLKCoreService__parseScanedResult', '_TLKCoreService__running', '_TLKCoreService__scan_info', '_TLKCoreService__version', '_TLKCoreService__web_callback', '_TLKCoreService__web_client_id', '__cinit__', '__class__', '__dealloc__', '__del__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'getScanInfo', 'initDev', 'queryTLKCoreVer', 'running', 'scanDevices', 'setWebCallback', 'version']
+2024-07-19 15:14:06.568 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 15:14:06.568 - Main - INFO : BB5G.__init__()
+2024-07-19 15:14:06.572 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 15:14:06.573 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 15:14:06.573 - Main - INFO : Device D2245E028-28 created
+2024-07-19 15:14:06.573 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 15:14:06.629 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:14:06.629 - Main - INFO : Available methods in TLKCoreService: ['DeInitDev', '_TLKCoreService__comm', '_TLKCoreService__createDirectory', '_TLKCoreService__deviceList', '_TLKCoreService__initMsg', '_TLKCoreService__log_path_default', '_TLKCoreService__logger', '_TLKCoreService__parseScanedResult', '_TLKCoreService__running', '_TLKCoreService__scan_info', '_TLKCoreService__version', '_TLKCoreService__web_callback', '_TLKCoreService__web_client_id', '__cinit__', '__class__', '__dealloc__', '__del__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'getScanInfo', 'initDev', 'queryTLKCoreVer', 'running', 'scanDevices', 'setWebCallback', 'version']
+2024-07-19 15:14:06.629 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 15:14:06.630 - Main - INFO : BB5G.__init__()
+2024-07-19 15:14:06.634 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 15:14:06.634 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 15:14:06.634 - Main - INFO : Device D2245E027-28 created
+2024-07-19 15:29:28.838 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 15:29:30.856 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 15:29:30.856 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 15:29:30.872 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:29:30.872 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 15:29:30.872 - Main - INFO : BB5G.__init__()
+2024-07-19 15:29:30.875 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 15:29:30.875 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 15:29:30.875 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 15:29:30.875 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 15:29:30.935 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:29:30.935 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 15:29:30.935 - Main - INFO : BB5G.__init__()
+2024-07-19 15:29:30.936 - Main - INFO : Frequency list found: []
+2024-07-19 15:29:30.939 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 15:29:30.939 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 15:29:30.939 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 15:29:30.939 - Main - INFO : Device D2245E028-28 created
+2024-07-19 15:29:30.939 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 15:29:30.994 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:29:30.994 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 15:29:30.995 - Main - INFO : BB5G.__init__()
+2024-07-19 15:29:30.995 - Main - INFO : Frequency list found: []
+2024-07-19 15:29:30.998 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 15:29:30.999 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 15:29:30.999 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 15:29:30.999 - Main - INFO : Device D2245E027-28 created
+2024-07-19 15:31:18.122 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 15:31:20.150 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 15:31:20.150 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 15:31:20.167 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:31:20.167 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 15:31:20.167 - Main - INFO : BB5G.__init__()
+2024-07-19 15:31:20.170 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 15:31:20.170 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 15:31:20.170 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 15:31:20.170 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 15:31:20.229 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:31:20.229 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 15:31:20.229 - Main - INFO : BB5G.__init__()
+2024-07-19 15:31:20.230 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 15:31:20.233 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 29, 29, 33]
+2024-07-19 15:31:20.233 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 15:31:20.233 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 15:31:20.234 - Main - INFO : Device D2245E028-28 created
+2024-07-19 15:31:20.234 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 15:31:20.290 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:31:20.290 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 15:31:20.290 - Main - INFO : BB5G.__init__()
+2024-07-19 15:31:20.290 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 15:31:20.293 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 15:31:20.294 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 15:31:20.294 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 15:31:20.294 - Main - INFO : Device D2245E027-28 created
+2024-07-19 15:34:14.573 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 15:34:16.591 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 15:34:16.591 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 15:34:16.608 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:34:16.608 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 15:34:16.608 - Main - INFO : BB5G.__init__()
+2024-07-19 15:34:16.611 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 15:34:16.611 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 15:34:16.611 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 15:34:16.611 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 15:34:16.671 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:34:16.671 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 15:34:16.671 - Main - INFO : BB5G.__init__()
+2024-07-19 15:34:16.671 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 15:34:16.674 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 15:34:16.674 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 15:34:16.674 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 15:34:16.674 - Main - INFO : Device D2245E028-28 created
+2024-07-19 15:34:16.675 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 15:34:16.730 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:34:16.731 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 15:34:16.731 - Main - INFO : BB5G.__init__()
+2024-07-19 15:34:16.731 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 15:34:16.734 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 15:34:16.734 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 15:34:16.734 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 15:34:16.734 - Main - INFO : Device D2245E027-28 created
+2024-07-19 15:36:54.705 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 15:36:56.731 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15', 'D2245E027-28,192.168.137.75,9']
+2024-07-19 15:36:56.731 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 15:36:56.748 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:36:56.748 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 15:36:56.748 - Main - INFO : BB5G.__init__()
+2024-07-19 15:36:56.751 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 15:36:56.751 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 15:36:56.751 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 15:36:56.751 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 15:36:56.810 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:36:56.810 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 15:36:56.811 - Main - INFO : BB5G.__init__()
+2024-07-19 15:36:56.811 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 15:36:56.814 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 15:36:56.814 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 15:36:56.814 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 15:36:56.815 - Main - INFO : Device D2245E028-28 created
+2024-07-19 15:36:56.815 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 15:36:56.870 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:36:56.870 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 15:36:56.870 - Main - INFO : BB5G.__init__()
+2024-07-19 15:36:56.871 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 15:36:56.874 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 15:36:56.874 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 15:36:56.875 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 15:36:56.875 - Main - INFO : Device D2245E027-28 created
+2024-07-19 15:36:56.940 - Main - INFO : UDBox setup complete
+2024-07-19 15:39:17.455 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 15:39:19.483 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 15:39:19.483 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 15:39:19.500 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:39:19.500 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 15:39:19.501 - Main - INFO : BB5G.__init__()
+2024-07-19 15:39:19.503 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 15:39:19.503 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 15:39:19.503 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 15:39:19.504 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 15:39:19.563 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:39:19.571 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 15:39:19.571 - Main - INFO : BB5G.__init__()
+2024-07-19 15:39:19.572 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 15:39:19.575 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 15:39:19.575 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 15:39:19.575 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 15:39:19.575 - Main - INFO : Device D2245E028-28 created
+2024-07-19 15:39:19.575 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 15:39:19.630 - Main - INFO : TMY_Device.__init__()
+2024-07-19 15:39:19.630 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 15:39:19.631 - Main - INFO : BB5G.__init__()
+2024-07-19 15:39:19.631 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 15:39:19.634 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 15:39:19.634 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 15:39:19.634 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 15:39:19.634 - Main - INFO : Device D2245E027-28 created
+2024-07-19 15:39:19.701 - Main - INFO : UDBox setup complete
+2024-07-19 16:02:22.175 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 16:02:24.193 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 16:02:24.193 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 16:02:24.210 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 16:02:24.213 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 16:02:24.213 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 16:02:24.213 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 16:02:24.213 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 16:02:24.272 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 16:02:24.273 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:02:24.273 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:02:24.276 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 16:02:24.276 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 16:02:24.276 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 16:02:24.276 - Main - INFO : Device D2245E028-28 created
+2024-07-19 16:02:24.276 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 16:02:24.332 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 16:02:24.332 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:02:24.332 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:02:24.336 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 16:02:24.336 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 16:02:24.336 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 16:02:24.336 - Main - INFO : Device D2245E027-28 created
+2024-07-19 16:02:24.402 - Main - INFO : UDBox setup complete
+2024-07-19 16:02:25.482 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:02:25.482 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:02:25.482 - Main - INFO : Setting BBoxOne5G to mode: RFMode.TX
+2024-07-19 16:02:25.482 - Main - DEBUG : Common Dynamic Range: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 16:08:31.209 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 16:08:33.228 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 16:08:33.228 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 16:08:33.244 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 16:08:33.247 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 16:08:33.247 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 16:08:33.247 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 16:08:33.248 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 16:08:33.307 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 16:08:33.308 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:08:33.308 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:08:33.311 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 29, 29, 33]
+2024-07-19 16:08:33.311 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 16:08:33.311 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 16:08:33.311 - Main - INFO : Device D2245E028-28 created
+2024-07-19 16:08:33.311 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 16:08:33.367 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 16:08:33.367 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:08:33.368 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:08:33.371 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 16:08:33.371 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 16:08:33.371 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 16:08:33.371 - Main - INFO : Device D2245E027-28 created
+2024-07-19 16:08:33.438 - Main - INFO : UDBox setup complete
+2024-07-19 16:08:34.500 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:08:34.500 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:08:34.501 - Main - INFO : Setting BBoxOne5G to mode: RFMode.TX
+2024-07-19 16:08:34.501 - Main - DEBUG : Common Dynamic Range: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 16:14:20.466 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 16:14:22.494 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 16:14:22.494 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 16:14:22.511 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 16:14:22.514 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 16:14:22.514 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 16:14:22.514 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 16:14:22.514 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 16:14:22.574 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 16:14:22.575 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:14:22.575 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:14:22.578 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 16:14:22.578 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 16:14:22.579 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 16:14:22.579 - Main - INFO : Device D2245E028-28 created
+2024-07-19 16:14:22.579 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 16:14:22.635 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 16:14:22.635 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:14:22.635 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:14:22.638 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 16:14:22.638 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 16:14:22.638 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 16:14:22.638 - Main - INFO : Device D2245E027-28 created
+2024-07-19 16:14:22.704 - Main - INFO : UDBox setup complete
+2024-07-19 16:14:23.770 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:14:23.770 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:14:23.770 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 16:14:23.770 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 16:14:23.770 - Main - INFO : Setting BBoxOne5G to mode: RFMode.TX
+2024-07-19 16:14:23.770 - Main - DEBUG : Common Dynamic Range: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 16:25:27.643 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 16:25:29.670 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 16:25:29.671 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 16:25:29.688 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 16:25:29.691 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 16:25:29.691 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 16:25:29.691 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 16:25:29.691 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 16:25:29.750 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 16:25:29.750 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:25:29.751 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:25:29.754 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 16:25:29.754 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 16:25:29.754 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 16:25:29.754 - Main - INFO : Device D2245E028-28 created
+2024-07-19 16:25:29.754 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 16:25:29.810 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 16:25:29.811 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:25:29.811 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:25:29.814 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 16:25:29.814 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 16:25:29.814 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 16:25:29.814 - Main - INFO : Device D2245E027-28 created
+2024-07-19 16:25:29.879 - Main - INFO : UDBox setup complete
+2024-07-19 16:25:30.993 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:25:30.993 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:25:30.993 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 16:25:30.993 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 16:25:30.993 - Main - INFO : Setting BBoxOne5G to mode: RFMode.TX
+2024-07-19 16:25:30.993 - Main - DEBUG : Common Dynamic Range: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 16:40:13.259 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 16:40:15.278 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 16:40:15.278 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 16:40:15.294 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 16:40:15.297 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 16:40:15.297 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 16:40:15.297 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 16:40:15.297 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 16:40:15.357 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 16:40:15.357 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:40:15.357 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:40:15.360 - Main - INFO : BBox D2245E028-28 board temperatures: [36, 30, 29, 33]
+2024-07-19 16:40:15.360 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 16:40:15.360 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 16:40:15.361 - Main - INFO : Device D2245E028-28 created
+2024-07-19 16:40:15.361 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 16:40:15.416 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 16:40:15.417 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:40:15.417 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:40:15.420 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 16:40:15.420 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 16:40:15.420 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 16:40:15.420 - Main - INFO : Device D2245E027-28 created
+2024-07-19 16:40:15.486 - Main - INFO : UDBox setup complete
+2024-07-19 16:40:16.553 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:40:16.553 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:40:16.553 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 16:40:16.553 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 16:40:16.555 - Main - INFO : Set BBoxOne5G D2245E028-28 to mode: RFMode.TX
+2024-07-19 16:40:16.555 - Main - DEBUG : Common Dynamic Range: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 16:40:16.555 - Main - INFO : Common Gain [TX]: [-8.0, 7.5]
+2024-07-19 16:40:16.555 - Main - DEBUG : Element Dynamic Range: [[4.0, 3.5, 3.5, 4.0], [5.0, 5.0, 5.5, 5.5]]
+2024-07-19 16:40:16.555 - Main - INFO : Element Dynamic Range [TX]: [4.0, 3.5, 3.5, 4.0]
+2024-07-19 16:40:16.555 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 16:40:16.555 - Main - INFO : TX BBoxOne5G setup complete
+2024-07-19 16:51:52.986 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 16:51:55.  3 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15', 'D2245E028-28,192.168.137.218,9']
+2024-07-19 16:51:55.  3 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 16:51:55. 20 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 16:51:55. 23 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 16:51:55. 23 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 16:51:55. 23 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 16:51:55. 23 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 16:51:55. 84 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 16:51:55. 84 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:51:55. 85 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:51:55. 88 - Main - INFO : BBox D2245E028-28 board temperatures: [30, 24, 23, 27]
+2024-07-19 16:51:55. 88 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 16:51:55. 88 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 16:51:55. 88 - Main - INFO : Device D2245E028-28 created
+2024-07-19 16:51:55. 88 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 16:51:55.145 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 16:51:55.145 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:51:55.145 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:51:55.149 - Main - INFO : BBox D2245E027-28 board temperatures: [30, 29, 30, 33]
+2024-07-19 16:51:55.149 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 16:51:55.149 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 16:51:55.149 - Main - INFO : Device D2245E027-28 created
+2024-07-19 16:51:55.215 - Main - INFO : UDBox setup complete
+2024-07-19 16:51:56.289 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:51:56.289 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:51:56.289 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 16:51:56.290 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 16:51:56.292 - Main - INFO : Set BBoxOne5G D2245E028-28 to mode: RFMode.TX
+2024-07-19 16:51:56.292 - Main - DEBUG : Dynamic Range: [-6.5, 10.5]
+2024-07-19 16:51:56.292 - Main - DEBUG : Common Dynamic Range: [[[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]], [[-17.0, -1.0], [-16.0, 0.0], [-18.5, -2.5], [-19.5, -3.5]]]
+2024-07-19 16:51:56.292 - Main - INFO : Common Gain [TX]: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 16:51:56.292 - Main - DEBUG : Element Dynamic Range: [[4.0, 3.5, 3.5, 4.0], [5.0, 5.0, 5.5, 5.5]]
+2024-07-19 16:51:56.292 - Main - INFO : Element Dynamic Range [TX]: [4.0, 3.5, 3.5, 4.0]
+2024-07-19 16:51:56.292 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 16:51:56.292 - Main - INFO : TX BBoxOne5G setup complete
+2024-07-19 16:51:57.442 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:51:57.442 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:51:57.442 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 16:51:57.442 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 16:51:57.444 - Main - INFO : Set BBoxOne5G D2245E027-28 to mode: RFMode.RX
+2024-07-19 16:51:57.444 - Main - DEBUG : Dynamic Range: [-15.5, 4.5]
+2024-07-19 16:51:57.445 - Main - DEBUG : Common Dynamic Range: [[[-7.0, 8.5], [-6.5, 8.5], [-7.0, 8.5], [-5.5, 10.0]], [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]]
+2024-07-19 16:51:57.445 - Main - INFO : Common Gain [RX]: [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]
+2024-07-19 16:51:57.445 - Main - DEBUG : Element Dynamic Range: [[3.5, 4.0, 5.0, 4.0], [5.5, 5.5, 6.0, 5.5]]
+2024-07-19 16:51:57.445 - Main - INFO : Element Dynamic Range [RX]: [5.5, 5.5, 6.0, 5.5]
+2024-07-19 16:51:57.445 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 16:51:57.445 - Main - INFO : RX BBoxOne5G setup complete
+2024-07-19 16:54:34.735 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 16:54:36.753 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 16:54:36.753 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 16:54:36.770 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 16:54:36.773 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 16:54:36.773 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 16:54:36.773 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 16:54:36.773 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 16:54:36.834 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 16:54:36.834 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:54:36.835 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:54:36.838 - Main - INFO : BBox D2245E028-28 board temperatures: [30, 24, 23, 27]
+2024-07-19 16:54:36.839 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 16:54:36.839 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 16:54:36.839 - Main - INFO : Device D2245E028-28 created
+2024-07-19 16:54:36.839 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 16:54:36.895 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 16:54:36.895 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:54:36.896 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:54:36.899 - Main - INFO : BBox D2245E027-28 board temperatures: [28, 27, 27, 31]
+2024-07-19 16:54:36.899 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 16:54:36.899 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 16:54:36.899 - Main - INFO : Device D2245E027-28 created
+2024-07-19 16:54:36.964 - Main - INFO : UDBox setup complete
+2024-07-19 16:54:38. 53 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:54:38. 53 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:54:38. 53 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 16:54:38. 53 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 16:54:38. 55 - Main - INFO : Set BBoxOne5G D2245E028-28 to mode: RFMode.TX
+2024-07-19 16:54:38. 55 - Main - DEBUG : Dynamic Range: [-6.5, 10.5]
+2024-07-19 16:54:38. 55 - Main - DEBUG : Common Dynamic Range: [[[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]], [[-17.0, -1.0], [-16.0, 0.0], [-18.5, -2.5], [-19.5, -3.5]]]
+2024-07-19 16:54:38. 55 - Main - INFO : Common Gain [TX]: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 16:54:38. 55 - Main - DEBUG : Element Dynamic Range: [[4.0, 3.5, 3.5, 4.0], [5.0, 5.0, 5.5, 5.5]]
+2024-07-19 16:54:38. 55 - Main - INFO : Element Dynamic Range [TX]: [4.0, 3.5, 3.5, 4.0]
+2024-07-19 16:54:38. 55 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 16:54:38. 55 - Main - INFO : TX BBoxOne5G setup complete
+2024-07-19 16:54:39.213 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:54:39.213 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:54:39.213 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 16:54:39.214 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 16:54:39.216 - Main - INFO : Set BBoxOne5G D2245E027-28 to mode: RFMode.RX
+2024-07-19 16:54:39.216 - Main - DEBUG : Dynamic Range: [-15.5, 4.5]
+2024-07-19 16:54:39.216 - Main - DEBUG : Common Dynamic Range: [[[-7.0, 8.5], [-6.5, 8.5], [-7.0, 8.5], [-5.5, 10.0]], [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]]
+2024-07-19 16:54:39.216 - Main - INFO : Common Gain [RX]: [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]
+2024-07-19 16:54:39.216 - Main - DEBUG : Element Dynamic Range: [[3.5, 4.0, 5.0, 4.0], [5.5, 5.5, 6.0, 5.5]]
+2024-07-19 16:54:39.216 - Main - INFO : Element Dynamic Range [RX]: [5.5, 5.5, 6.0, 5.5]
+2024-07-19 16:54:39.216 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 16:54:39.216 - Main - INFO : RX BBoxOne5G setup complete
+2024-07-19 16:54:39.236 - Main - INFO : Channels disabled: True
+2024-07-19 16:56:12.920 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 16:56:14.949 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 16:56:14.949 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 16:56:14.966 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 16:56:14.969 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 16:56:14.969 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 16:56:14.969 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 16:56:14.969 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 16:56:15. 29 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 16:56:15. 29 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:56:15. 29 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:56:15. 33 - Main - INFO : BBox D2245E028-28 board temperatures: [30, 24, 23, 27]
+2024-07-19 16:56:15. 33 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 16:56:15. 33 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 16:56:15. 33 - Main - INFO : Device D2245E028-28 created
+2024-07-19 16:56:15. 33 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 16:56:15. 89 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 16:56:15. 90 - Main - DEBUG : Number of boards: 4
+2024-07-19 16:56:15. 90 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 16:56:15. 93 - Main - INFO : BBox D2245E027-28 board temperatures: [28, 27, 27, 31]
+2024-07-19 16:56:15. 93 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 16:56:15. 93 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 16:56:15. 94 - Main - INFO : Device D2245E027-28 created
+2024-07-19 16:56:15.158 - Main - INFO : UDBox setup complete
+2024-07-19 16:56:16.221 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:56:16.221 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:56:16.221 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 16:56:16.221 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 16:56:16.223 - Main - INFO : Set BBoxOne5G D2245E028-28 to mode: RFMode.TX
+2024-07-19 16:56:16.223 - Main - DEBUG : Dynamic Range: [-6.5, 10.5]
+2024-07-19 16:56:16.223 - Main - DEBUG : Common Dynamic Range: [[[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]], [[-17.0, -1.0], [-16.0, 0.0], [-18.5, -2.5], [-19.5, -3.5]]]
+2024-07-19 16:56:16.223 - Main - INFO : Common Gain [TX]: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 16:56:16.223 - Main - DEBUG : Element Dynamic Range: [[4.0, 3.5, 3.5, 4.0], [5.0, 5.0, 5.5, 5.5]]
+2024-07-19 16:56:16.223 - Main - INFO : Element Dynamic Range [TX]: [4.0, 3.5, 3.5, 4.0]
+2024-07-19 16:56:16.223 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 16:56:16.223 - Main - INFO : TX BBoxOne5G setup complete
+2024-07-19 16:56:17.373 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 16:56:17.374 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 16:56:17.374 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 16:56:17.374 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 16:56:17.376 - Main - INFO : Set BBoxOne5G D2245E027-28 to mode: RFMode.RX
+2024-07-19 16:56:17.376 - Main - DEBUG : Dynamic Range: [-15.5, 4.5]
+2024-07-19 16:56:17.376 - Main - DEBUG : Common Dynamic Range: [[[-7.0, 8.5], [-6.5, 8.5], [-7.0, 8.5], [-5.5, 10.0]], [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]]
+2024-07-19 16:56:17.376 - Main - INFO : Common Gain [RX]: [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]
+2024-07-19 16:56:17.376 - Main - DEBUG : Element Dynamic Range: [[3.5, 4.0, 5.0, 4.0], [5.5, 5.5, 6.0, 5.5]]
+2024-07-19 16:56:17.376 - Main - INFO : Element Dynamic Range [RX]: [5.5, 5.5, 6.0, 5.5]
+2024-07-19 16:56:17.376 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 16:56:17.376 - Main - INFO : RX BBoxOne5G setup complete
+2024-07-19 16:56:17.397 - Main - INFO : Both Channels Disabled: True
+2024-07-19 17:03:27.446 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 17:03:29.464 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.75,9', 'D2245E028-28,192.168.137.218,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 17:03:29.464 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 17:03:29.480 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 17:03:29.484 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 17:03:29.484 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 17:03:29.484 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 17:03:29.484 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 17:03:29.546 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 17:03:29.546 - Main - DEBUG : Number of boards: 4
+2024-07-19 17:03:29.547 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 17:03:29.550 - Main - INFO : BBox D2245E028-28 board temperatures: [29, 24, 23, 27]
+2024-07-19 17:03:29.550 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 17:03:29.550 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 17:03:29.550 - Main - INFO : Device D2245E028-28 created
+2024-07-19 17:03:29.550 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 17:03:29.606 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 17:03:29.606 - Main - DEBUG : Number of boards: 4
+2024-07-19 17:03:29.607 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 17:03:29.610 - Main - INFO : BBox D2245E027-28 board temperatures: [28, 26, 27, 31]
+2024-07-19 17:03:29.610 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 17:03:29.610 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 17:03:29.610 - Main - INFO : Device D2245E027-28 created
+2024-07-19 17:03:29.675 - Main - INFO : UDBox setup complete
+2024-07-19 17:03:30.759 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 17:03:30.759 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 17:03:30.759 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 17:03:30.760 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 17:03:30.761 - Main - INFO : Set BBoxOne5G D2245E028-28 to mode: RFMode.TX
+2024-07-19 17:03:30.761 - Main - DEBUG : Dynamic Range: [-6.5, 10.5]
+2024-07-19 17:03:30.761 - Main - DEBUG : Common Dynamic Range: [[[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]], [[-17.0, -1.0], [-16.0, 0.0], [-18.5, -2.5], [-19.5, -3.5]]]
+2024-07-19 17:03:30.761 - Main - INFO : Common Gain [TX]: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 17:03:30.762 - Main - DEBUG : Element Dynamic Range: [[4.0, 3.5, 3.5, 4.0], [5.0, 5.0, 5.5, 5.5]]
+2024-07-19 17:03:30.762 - Main - INFO : Element Dynamic Range [TX]: [4.0, 3.5, 3.5, 4.0]
+2024-07-19 17:03:30.762 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 17:03:30.762 - Main - INFO : TX BBoxOne5G setup complete
+2024-07-19 17:03:31.932 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 17:03:31.932 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 17:03:31.932 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 17:03:31.932 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 17:03:31.934 - Main - INFO : Set BBoxOne5G D2245E027-28 to mode: RFMode.RX
+2024-07-19 17:03:31.934 - Main - DEBUG : Dynamic Range: [-15.5, 4.5]
+2024-07-19 17:03:31.934 - Main - DEBUG : Common Dynamic Range: [[[-7.0, 8.5], [-6.5, 8.5], [-7.0, 8.5], [-5.5, 10.0]], [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]]
+2024-07-19 17:03:31.934 - Main - INFO : Common Gain [RX]: [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]
+2024-07-19 17:03:31.934 - Main - DEBUG : Element Dynamic Range: [[3.5, 4.0, 5.0, 4.0], [5.5, 5.5, 6.0, 5.5]]
+2024-07-19 17:03:31.934 - Main - INFO : Element Dynamic Range [RX]: [5.5, 5.5, 6.0, 5.5]
+2024-07-19 17:03:31.934 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 17:03:31.934 - Main - INFO : RX BBoxOne5G setup complete
+2024-07-19 17:03:31.961 - Main - INFO : Both Channels Disabled: True
+2024-07-19 17:04:45.312 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-19 17:04:47.334 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.218,9', 'D2245E027-28,192.168.137.75,9', 'UD-BD22470039-24,192.168.137.98,15']
+2024-07-19 17:04:47.334 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-19 17:04:47.351 - Main - INFO : Device UD-BD22470039-24 info: ('192.168.137.98', 15)
+2024-07-19 17:04:47.354 - Main - INFO : UDBox init complete: UD-BD22470039-24
+2024-07-19 17:04:47.354 - Main - INFO : UDBox device created: UD-BD22470039-24
+2024-07-19 17:04:47.354 - Main - INFO : Device UD-BD22470039-24 created
+2024-07-19 17:04:47.354 - Main - INFO : Device D2245E028-28 found in scan results
+2024-07-19 17:04:47.415 - Main - INFO : Device D2245E028-28 info: ('192.168.137.218', 9)
+2024-07-19 17:04:47.415 - Main - DEBUG : Number of boards: 4
+2024-07-19 17:04:47.415 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 17:04:47.419 - Main - INFO : BBox D2245E028-28 board temperatures: [30, 24, 23, 27]
+2024-07-19 17:04:47.420 - Main - INFO : BBox5G init complete: D2245E028-28
+2024-07-19 17:04:47.420 - Main - INFO : BBoxOne5G device created: D2245E028-28
+2024-07-19 17:04:47.420 - Main - INFO : Device D2245E028-28 created
+2024-07-19 17:04:47.420 - Main - INFO : Device D2245E027-28 found in scan results
+2024-07-19 17:04:47.476 - Main - INFO : Device D2245E027-28 info: ('192.168.137.75', 9)
+2024-07-19 17:04:47.477 - Main - DEBUG : Number of boards: 4
+2024-07-19 17:04:47.477 - Main - INFO : Frequency list found: [28.0]
+2024-07-19 17:04:47.481 - Main - INFO : BBox D2245E027-28 board temperatures: [28, 26, 26, 31]
+2024-07-19 17:04:47.481 - Main - INFO : BBox5G init complete: D2245E027-28
+2024-07-19 17:04:47.481 - Main - INFO : BBoxOne5G device created: D2245E027-28
+2024-07-19 17:04:47.481 - Main - INFO : Device D2245E027-28 created
+2024-07-19 17:04:47.547 - Main - INFO : UDBox setup complete
+2024-07-19 17:04:48.619 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 17:04:48.619 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 17:04:48.619 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 17:04:48.619 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 17:04:48.621 - Main - INFO : Set BBoxOne5G D2245E028-28 to mode: RFMode.TX
+2024-07-19 17:04:48.621 - Main - DEBUG : Dynamic Range: [-6.5, 10.5]
+2024-07-19 17:04:48.621 - Main - DEBUG : Common Dynamic Range: [[[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]], [[-17.0, -1.0], [-16.0, 0.0], [-18.5, -2.5], [-19.5, -3.5]]]
+2024-07-19 17:04:48.621 - Main - INFO : Common Gain [TX]: [[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]]
+2024-07-19 17:04:48.621 - Main - DEBUG : Element Dynamic Range: [[4.0, 3.5, 3.5, 4.0], [5.0, 5.0, 5.5, 5.5]]
+2024-07-19 17:04:48.621 - Main - INFO : Element Dynamic Range [TX]: [4.0, 3.5, 3.5, 4.0]
+2024-07-19 17:04:48.621 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 17:04:48.621 - Main - INFO : TX BBoxOne5G setup complete
+2024-07-19 17:04:49.782 - Main - DEBUG : Target frequency: 28.0
+2024-07-19 17:04:49.782 - Main - DEBUG : Calibration version: 2.3.7
+2024-07-19 17:04:49.782 - Main - DEBUG : SETUP: Frequency set: True
+2024-07-19 17:04:49.782 - Main - DEBUG : SETUP: AAKit set: True
+2024-07-19 17:04:49.784 - Main - INFO : Set BBoxOne5G D2245E027-28 to mode: RFMode.RX
+2024-07-19 17:04:49.784 - Main - DEBUG : Dynamic Range: [-15.5, 4.5]
+2024-07-19 17:04:49.784 - Main - DEBUG : Common Dynamic Range: [[[-7.0, 8.5], [-6.5, 8.5], [-7.0, 8.5], [-5.5, 10.0]], [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]]
+2024-07-19 17:04:49.784 - Main - INFO : Common Gain [RX]: [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]
+2024-07-19 17:04:49.784 - Main - DEBUG : Element Dynamic Range: [[3.5, 4.0, 5.0, 4.0], [5.5, 5.5, 6.0, 5.5]]
+2024-07-19 17:04:49.784 - Main - INFO : Element Dynamic Range [RX]: [5.5, 5.5, 6.0, 5.5]
+2024-07-19 17:04:49.784 - Main - DEBUG : SETUP: Mode set: True
+2024-07-19 17:04:49.785 - Main - INFO : RX BBoxOne5G setup complete
+2024-07-19 17:04:49.791 - Main - DEBUG : Setting Beam Angle: 10.5dB, theta:10, phi:270
+2024-07-19 17:04:49.794 - Main - DEBUG : Setting Beam Angle: 4.5dB, theta:30, phi:180
+2024-07-19 17:04:49.810 - Main - INFO : Both Channels Disabled: True

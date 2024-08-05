@@ -1,0 +1,13 @@
+PREDATA aligned freespace ~42inches on tabletop
+Time suffix: 20240723-141321
+Number of beams: 163.0
+Number of packets per beam: 2
+Number of samples: 326
+theta_step: 5
+phi_step: 20
+Scan Time taken: 5.443482160568237 seconds
+UDBox serial number: UD-BD22470039-24
+TX BBoxOne5G serial number: D2245E027-28
+RX BBoxOne5G serial number: D2245E028-28
+final rx Beam gain: 2.0
+final tx Beam theta: 12.0

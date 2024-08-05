@@ -1,0 +1,38 @@
+2024-07-08 13:08:43.985 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-08 13:08:46.  3 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.16,9', 'D2245E028-28,192.168.137.111,9', 'UD-BD22470039-24,192.168.137.147,15']
+2024-07-08 13:08:46.  3 - Main - INFO : No serial numbers given. Logging Scan Results Only
+2024-07-08 14:01:42. 21 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-08 14:01:44. 50 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.16,9', 'D2245E028-28,192.168.137.111,9', 'UD-BD22470039-24,192.168.137.147,15']
+2024-07-08 14:01:44. 50 - Main - INFO : No serial numbers given. Logging Scan Results Only
+2024-07-08 14:02:58.609 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-08 14:03:00.636 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.111,9', 'D2245E027-28,192.168.137.16,9', 'UD-BD22470039-24,192.168.137.147,15']
+2024-07-08 14:03:00.636 - Main - INFO : No serial numbers given. Logging Scan Results Only
+2024-07-08 14:03:00.636 - Main - INFO : Dev_0: D2245E028-28, 192.168.137.111, 9
+2024-07-08 14:03:00.636 - Main - INFO : Dev_1: D2245E027-28, 192.168.137.16, 9
+2024-07-08 14:03:00.636 - Main - INFO : Dev_2: UD-BD22470039-24, 192.168.137.147, 15
+2024-07-08 14:07:39.247 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-08 14:07:41.264 - Main - INFO : Scanned device list: ['D2245E027-28,192.168.137.16,9', 'D2245E028-28,192.168.137.111,9', 'UD-BD22470039-24,192.168.137.147,15']
+2024-07-08 14:07:41.264 - Main - INFO : No serial numbers given. Logging Scan Results Only
+2024-07-08 14:07:41.264 - Main - INFO : Dev_0: D2245E027-28, 192.168.137.16, 9
+2024-07-08 14:07:41.264 - Main - INFO : Dev_1: D2245E028-28, 192.168.137.111, 9
+2024-07-08 14:07:41.264 - Main - INFO : Dev_2: UD-BD22470039-24, 192.168.137.147, 15
+2024-07-08 14:07:41.264 - Main - INFO : TMY_service.__init__()
+2024-07-08 14:07:41.264 - Main - INFO : Creating TLKCoreService object with path: ./TLKCore/lib
+2024-07-08 14:07:41.265 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-08 14:07:43.281 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.111,9', 'UD-BD22470039-24,192.168.137.147,15', 'D2245E027-28,192.168.137.16,9']
+2024-07-08 14:07:43.281 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-08 14:07:43.297 - __main__ - INFO : TMY_Device.__init__()
+2024-07-08 14:07:43.298 - __main__ - INFO : Device type: UDBox
+2024-07-08 14:09:00.932 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-08 14:09:02.951 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.111,9', 'D2245E027-28,192.168.137.16,9', 'UD-BD22470039-24,192.168.137.147,15']
+2024-07-08 14:09:02.951 - Main - INFO : No serial numbers given. Logging Scan Results Only
+2024-07-08 14:09:02.951 - Main - INFO : Dev_0: D2245E028-28, 192.168.137.111, 9
+2024-07-08 14:09:02.951 - Main - INFO : Dev_1: D2245E027-28, 192.168.137.16, 9
+2024-07-08 14:09:02.951 - Main - INFO : Dev_2: UD-BD22470039-24, 192.168.137.147, 15
+2024-07-08 14:09:02.951 - Main - INFO : TMY_service.__init__()
+2024-07-08 14:09:02.951 - Main - INFO : Creating TLKCoreService object with path: ./TLKCore/lib
+2024-07-08 14:09:02.951 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-08 14:09:04.966 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.111,9', 'D2245E027-28,192.168.137.16,9', 'UD-BD22470039-24,192.168.137.147,15']
+2024-07-08 14:09:04.966 - Main - INFO : Device UD-BD22470039-24 found in scan results
+2024-07-08 14:09:04.983 - __main__ - INFO : TMY_Device.__init__()
+2024-07-08 14:09:04.983 - __main__ - INFO : Device type: UDBox

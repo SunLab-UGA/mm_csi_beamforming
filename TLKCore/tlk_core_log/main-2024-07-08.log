@@ -1,0 +1,93 @@
+2024-07-08 10:41:52.191 - Main - INFO : TLKCoreService loaded with default root: /home/sunlab/mm_csi_beamforming/TLKCore
+2024-07-08 10:41:52.191 - Main - INFO : Current working directory: /home/sunlab/mm_csi_beamforming/TLKCore
+2024-07-08 10:41:52.191 - Main - INFO : TLKCoreService v2.0.0 is running
+2024-07-08 10:41:52.191 - Main - INFO : Searching devices via: DevInterface.ALL
+2024-07-08 10:41:54.209 - Main - INFO : Scanned device list: ['D2245E028-28,192.168.137.111,9', 'D2245E027-28,192.168.137.16,9', 'UD-BD22470039-24,192.168.137.147,15']
+2024-07-08 10:41:54.209 - Main - INFO : Dev_0: D2245E028-28, 192.168.137.111, 9
+2024-07-08 10:41:54.267 - Main - INFO : device type Name: BBoxOne5G
+2024-07-08 10:41:54.267 - Main - INFO : Dev_1: D2245E027-28, 192.168.137.16, 9
+2024-07-08 10:41:54.323 - Main - INFO : device type Name: BBoxOne5G
+2024-07-08 10:41:54.323 - Main - INFO : Dev_2: UD-BD22470039-24, 192.168.137.147, 15
+2024-07-08 10:41:54.339 - Main - INFO : device type Name: UDBox
+2024-07-08 10:41:54.340 - Main - INFO : Total 3 devices found
+2024-07-08 10:41:54.340 - Main - INFO : Setting up Device: UDBox, sn: UD-BD22470039-24
+2024-07-08 10:41:54.344 - Main - INFO : {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 1, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:41:54.348 - Main - INFO : {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 0, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:41:54.351 - Main - INFO : PLO state: 1
+2024-07-08 10:41:54.354 - Main - INFO : All state: {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 0, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:41:54.354 - Main - INFO : Get current freq: {'UDFreq': 0, 'RFFreq': 0, 'IFFreq': 0}
+2024-07-08 10:41:54.358 - Main - INFO : {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 0, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:41:54.359 - Main - INFO : Harmonic/Freq Check: False
+2024-07-08 10:41:54.425 - Main - INFO : Freq config: [RetType] OK
+2024-07-08 10:41:54.430 - Main - INFO : {'PLO_LOCK': 1, 'CH1': 1, 'CH2': 0, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:41:54.435 - Main - INFO : {'PLO_LOCK': 1, 'CH1': 1, 'CH2': 1, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:41:54.435 - Main - INFO : Get current freq: {'UDFreq': 0, 'RFFreq': 0, 'IFFreq': 0}
+2024-07-08 10:41:54.438 - Main - INFO : All state: {'PLO_LOCK': 1, 'CH1': 1, 'CH2': 1, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:41:54.439 - Main - INFO : Setting up BBox: D2245E027-28 for mode: RFMode.TX
+2024-07-08 10:41:54.439 - Main - INFO : setting freq: 28.0 GHz
+2024-07-08 10:41:54.441 - Main - INFO : Set RF mode: OK
+2024-07-08 10:41:55.553 - Main - INFO : Get freq: 28.0
+2024-07-08 10:41:55.553 - Main - INFO : Cali ver: 2.3.7
+2024-07-08 10:41:55.553 - Main - INFO : DR range: [-5.5, 12.0]
+2024-07-08 10:41:55.554 - Main - INFO : Select AAKit: TMYTEK_28ONE_4x4_C2245E029-28, return OK
+2024-07-08 10:41:55.554 - Main - INFO : Board count: 4
+2024-07-08 10:41:55.554 - Main - INFO : Common DR: [[[-7.0, 8.5], [-6.5, 8.5], [-7.0, 8.5], [-5.5, 10.0]], [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]]
+2024-07-08 10:41:55.554 - Main - INFO : Board:1 common gain range: [-7.0, 8.5], and element gain limit: 3.5
+2024-07-08 10:41:55.554 - Main - INFO : Board:2 common gain range: [-6.5, 8.5], and element gain limit: 4.0
+2024-07-08 10:41:55.554 - Main - INFO : Board:3 common gain range: [-7.0, 8.5], and element gain limit: 5.0
+2024-07-08 10:41:55.554 - Main - INFO : Board:4 common gain range: [-5.5, 10.0], and element gain limit: 4.0
+2024-07-08 10:41:55.557 - Main - INFO : SetBeamAngle-boresight: [RetType] OK
+2024-07-08 10:41:55.559 - Main - INFO : BBox D2245E027-28 board temperatures: [25, 23, 24, 27]
+2024-07-08 10:41:55.559 - Main - INFO : Setting up BBox: D2245E028-28 for mode: RFMode.RX
+2024-07-08 10:41:55.559 - Main - INFO : setting freq: 28.0 GHz
+2024-07-08 10:41:55.561 - Main - INFO : Set RF mode: OK
+2024-07-08 10:41:56.676 - Main - INFO : Get freq: 28.0
+2024-07-08 10:41:56.676 - Main - INFO : Cali ver: 2.3.7
+2024-07-08 10:41:56.676 - Main - INFO : DR range: [-16.0, 2.0]
+2024-07-08 10:41:56.676 - Main - INFO : Select AAKit: TMYTEK_28ONE_4x4_C2245E030-28, return OK
+2024-07-08 10:41:56.676 - Main - INFO : Board count: 4
+2024-07-08 10:41:56.676 - Main - INFO : Common DR: [[[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]], [[-17.0, -1.0], [-16.0, 0.0], [-18.5, -2.5], [-19.5, -3.5]]]
+2024-07-08 10:41:56.676 - Main - INFO : Board:1 common gain range: [-17.0, -1.0], and element gain limit: 5.0
+2024-07-08 10:41:56.676 - Main - INFO : Board:2 common gain range: [-16.0, 0.0], and element gain limit: 5.0
+2024-07-08 10:41:56.677 - Main - INFO : Board:3 common gain range: [-18.5, -2.5], and element gain limit: 5.5
+2024-07-08 10:41:56.677 - Main - INFO : Board:4 common gain range: [-19.5, -3.5], and element gain limit: 5.5
+2024-07-08 10:41:56.680 - Main - INFO : SetBeamAngle-boresight: [RetType] OK
+2024-07-08 10:41:56.682 - Main - INFO : BBox D2245E028-28 board temperatures: [34, 28, 27, 31]
+2024-07-08 10:41:56.682 - Main - INFO : System is ready to go
+2024-07-08 10:42:00.908 - Main - INFO : {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 1, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:42:00.913 - Main - INFO : {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 0, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:42:00.913 - Main - INFO : Disabling channels for: D2245E027-28
+2024-07-08 10:42:00.916 - Main - INFO : Disabled channel 1: [RetType] OK
+2024-07-08 10:42:00.919 - Main - INFO : Disabled channel 2: [RetType] OK
+2024-07-08 10:42:00.921 - Main - INFO : Disabled channel 3: [RetType] OK
+2024-07-08 10:42:00.924 - Main - INFO : Disabled channel 4: [RetType] OK
+2024-07-08 10:42:00.927 - Main - INFO : Disabled channel 5: [RetType] OK
+2024-07-08 10:42:00.930 - Main - INFO : Disabled channel 6: [RetType] OK
+2024-07-08 10:42:00.933 - Main - INFO : Disabled channel 7: [RetType] OK
+2024-07-08 10:42:00.935 - Main - INFO : Disabled channel 8: [RetType] OK
+2024-07-08 10:42:00.938 - Main - INFO : Disabled channel 9: [RetType] OK
+2024-07-08 10:42:00.941 - Main - INFO : Disabled channel 10: [RetType] OK
+2024-07-08 10:42:00.944 - Main - INFO : Disabled channel 11: [RetType] OK
+2024-07-08 10:42:00.947 - Main - INFO : Disabled channel 12: [RetType] OK
+2024-07-08 10:42:00.949 - Main - INFO : Disabled channel 13: [RetType] OK
+2024-07-08 10:42:00.952 - Main - INFO : Disabled channel 14: [RetType] OK
+2024-07-08 10:42:00.955 - Main - INFO : Disabled channel 15: [RetType] OK
+2024-07-08 10:42:00.958 - Main - INFO : Disabled channel 16: [RetType] OK
+2024-07-08 10:42:00.958 - Main - INFO : Disabling channels for: D2245E028-28
+2024-07-08 10:42:00.961 - Main - INFO : Disabled channel 1: [RetType] OK
+2024-07-08 10:42:00.964 - Main - INFO : Disabled channel 2: [RetType] OK
+2024-07-08 10:42:00.967 - Main - INFO : Disabled channel 3: [RetType] OK
+2024-07-08 10:42:00.969 - Main - INFO : Disabled channel 4: [RetType] OK
+2024-07-08 10:42:00.972 - Main - INFO : Disabled channel 5: [RetType] OK
+2024-07-08 10:42:00.975 - Main - INFO : Disabled channel 6: [RetType] OK
+2024-07-08 10:42:00.978 - Main - INFO : Disabled channel 7: [RetType] OK
+2024-07-08 10:42:00.981 - Main - INFO : Disabled channel 8: [RetType] OK
+2024-07-08 10:42:00.983 - Main - INFO : Disabled channel 9: [RetType] OK
+2024-07-08 10:42:00.986 - Main - INFO : Disabled channel 10: [RetType] OK
+2024-07-08 10:42:00.989 - Main - INFO : Disabled channel 11: [RetType] OK
+2024-07-08 10:42:00.992 - Main - INFO : Disabled channel 12: [RetType] OK
+2024-07-08 10:42:00.994 - Main - INFO : Disabled channel 13: [RetType] OK
+2024-07-08 10:42:00.997 - Main - INFO : Disabled channel 14: [RetType] OK
+2024-07-08 10:42:00.999 - Main - INFO : Disabled channel 15: [RetType] OK
+2024-07-08 10:42:01.  2 - Main - INFO : Disabled channel 16: [RetType] OK
+2024-07-08 10:42:01.  2 - Main - INFO : end

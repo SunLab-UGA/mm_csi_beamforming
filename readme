@@ -1,0 +1,3 @@
+this is a copy and abstract class for "TLKCore_v2.0.0_Linux_Python3.10-64bit"
+
+the abstract class intitalizes the BBOX and UDBox devices and keeps track of each device object

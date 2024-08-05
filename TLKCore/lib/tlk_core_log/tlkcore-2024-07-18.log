@@ -1,0 +1,21 @@
+2024-07-18 13:02:38.751 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-18 13:02:38.751 - TLKCoreService - INFO : Log file folder: /home/sunlab/mm_csi_beamforming/TLKCore/lib/tlk_core_log
+2024-07-18 13:02:38.751 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-18 13:02:38.751 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-18 13:02:38.751 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-18 13:02:38.751 - Comm - INFO : Scan LAN
+2024-07-18 13:02:38.752 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-18 13:02:38.752 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-18 13:02:38.752 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-18 13:02:38.853 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-18 13:02:38.853 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count:  0
+2024-07-18 13:02:40.759 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-18 13:02:40.759 - Comm - DEBUG : [192.168.137.50] Found nothing
+2024-07-18 13:02:40.760 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-18 13:02:40.760 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-18 13:02:40.760 - Comm - INFO : Scan ComPort
+2024-07-18 13:02:40.772 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-18 13:02:40.773 - Comm - INFO : Scan USB
+2024-07-18 13:02:40.779 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-18 13:02:40.779 - Comm - INFO : Scanned 0 USB devices
+2024-07-18 13:02:40.779 - TLKCoreService - DEBUG : DeInit TLKCore Service

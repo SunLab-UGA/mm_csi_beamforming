@@ -1,0 +1,336 @@
+2024-07-01 14:36:33.756 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-01 14:36:33.756 - TLKCoreService - INFO : Log config path: /home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/logging.conf
+2024-07-01 14:36:33.756 - TLKCoreService - INFO : Log file folder: /home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/tlk_core_log
+2024-07-01 14:36:33.756 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-01 14:36:33.756 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-01 14:36:33.756 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-01 14:36:33.756 - Comm - INFO : Scan LAN
+2024-07-01 14:36:33.757 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-01 14:36:33.757 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-01 14:36:33.757 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-01 14:36:33.758 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.6
+2024-07-01 14:36:33.758 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.224
+2024-07-01 14:36:33.759 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.214
+2024-07-01 14:36:33.857 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-01 14:36:35.461 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-01 14:36:35.760 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-01 14:36:35.760 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-01 14:36:35.760 - Comm - INFO : Scan ComPort
+2024-07-01 14:36:35.763 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-01 14:36:35.763 - Comm - INFO : Scan USB
+2024-07-01 14:36:35.765 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-01 14:36:35.765 - Comm - INFO : Scanned 0 USB devices
+2024-07-01 14:36:35.765 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-01 14:36:35.765 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.6
+2024-07-01 14:36:35.765 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-01 14:36:35.765 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-01 14:36:35.765 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.224
+2024-07-01 14:36:35.765 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-01 14:36:35.766 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-01 14:36:35.766 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.214
+2024-07-01 14:36:35.766 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-01 14:36:35.771 - TLKCoreService - DEBUG : Loading BBoxOne28A from: <module 'tlkcore.tmydev.DevBBoxOne' from '/home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/lib/tlkcore/tmydev/DevBBoxOne.so'>
+2024-07-01 14:36:35.771 - Device - INFO : General device init
+2024-07-01 14:36:35.771 - Device - INFO : SN          : D2245E028-28
+2024-07-01 14:36:35.771 - Device - INFO : ADDRESS     : 192.168.137.6
+2024-07-01 14:36:35.771 - Device - INFO : DEVICE_TYPE : 9
+2024-07-01 14:36:35.771 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-01 14:36:35.771 - Comm - INFO : 0) TCP connected to 192.168.137.6:5025
+2024-07-01 14:36:35.771 - Comm - INFO : Enable keepalive
+2024-07-01 14:36:35.771 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 14:36:35.772 - Device - DEBUG : DevBBox init
+2024-07-01 14:36:35.772 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-01 14:36:35.772 - Device - DEBUG : cmd: QUERY_FW_VERSION
+2024-07-01 14:36:35.780 - Device - INFO : [D2245E028-28] _queryFWVer(): v1.2.14
+2024-07-01 14:36:35.780 - Device - INFO : FW: v1.2.14
+2024-07-01 14:36:35.780 - Device - DEBUG : DevBBoxOne init
+2024-07-01 14:36:35.780 - Device - DEBUG : BBoxOne28A init
+2024-07-01 14:36:35.780 - Device - DEBUG : Calling dev_func: 'initDev()'with () and {}
+2024-07-01 14:36:35.780 - Device - DEBUG : cmd: INIT 0
+2024-07-01 14:36:35.823 - Device - INFO : [D2245E028-28] initDev(): 0
+2024-07-01 14:36:35.823 - Device - INFO : initDev result: OK:<class 'int'>
+2024-07-01 14:36:35.823 - Device - DEBUG : Default TC config: [[[8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11]]]
+2024-07-01 14:36:35.823 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-01 14:36:35.823 - Device - INFO : Device D2245E028-28 init done
+2024-07-01 14:36:35.823 - TLKCoreService - DEBUG : Loading BBoxOne28A from: <module 'tlkcore.tmydev.DevBBoxOne' from '/home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/lib/tlkcore/tmydev/DevBBoxOne.so'>
+2024-07-01 14:36:35.823 - Device - INFO : General device init
+2024-07-01 14:36:35.823 - Device - INFO : SN          : D2245E027-28
+2024-07-01 14:36:35.823 - Device - INFO : ADDRESS     : 192.168.137.224
+2024-07-01 14:36:35.823 - Device - INFO : DEVICE_TYPE : 9
+2024-07-01 14:36:35.823 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-01 14:36:35.824 - Comm - INFO : 0) TCP connected to 192.168.137.224:5025
+2024-07-01 14:36:35.824 - Comm - INFO : Enable keepalive
+2024-07-01 14:36:35.824 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 14:36:35.824 - Device - DEBUG : DevBBox init
+2024-07-01 14:36:35.824 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-01 14:36:35.824 - Device - DEBUG : cmd: QUERY_FW_VERSION
+2024-07-01 14:36:35.832 - Device - INFO : [D2245E027-28] _queryFWVer(): v1.2.14
+2024-07-01 14:36:35.832 - Device - INFO : FW: v1.2.14
+2024-07-01 14:36:35.832 - Device - DEBUG : DevBBoxOne init
+2024-07-01 14:36:35.832 - Device - DEBUG : BBoxOne28A init
+2024-07-01 14:36:35.832 - Device - DEBUG : Calling dev_func: 'initDev()'with () and {}
+2024-07-01 14:36:35.832 - Device - DEBUG : cmd: INIT 0
+2024-07-01 14:36:35.874 - Device - INFO : [D2245E027-28] initDev(): 0
+2024-07-01 14:36:35.874 - Device - INFO : initDev result: OK:<class 'int'>
+2024-07-01 14:36:35.874 - Device - DEBUG : Default TC config: [[[8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11]]]
+2024-07-01 14:36:35.874 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-01 14:36:35.874 - Device - INFO : Device D2245E027-28 init done
+2024-07-01 14:36:35.875 - TLKCoreService - DEBUG : Loading UDBox from: <module 'tlkcore.tmydev.DevUDBox' from '/home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/lib/tlkcore/tmydev/DevUDBox.so'>
+2024-07-01 14:36:35.875 - Device - INFO : General device init
+2024-07-01 14:36:35.875 - Device - INFO : SN          : UD-BD22470039-24
+2024-07-01 14:36:35.875 - Device - INFO : ADDRESS     : 192.168.137.214
+2024-07-01 14:36:35.875 - Device - INFO : DEVICE_TYPE : 15
+2024-07-01 14:36:35.875 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-01 14:36:35.875 - Comm - INFO : 0) TCP connected to 192.168.137.214:5025
+2024-07-01 14:36:35.875 - Comm - INFO : Enable keepalive
+2024-07-01 14:36:35.875 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 14:36:35.875 - Device - DEBUG : DevUDBox init
+2024-07-01 14:36:35.875 - Comm - DEBUG : Closed socket
+2024-07-01 14:36:35.880 - Comm - INFO : 0) TCP connected to 192.168.137.214:5025
+2024-07-01 14:36:35.881 - Comm - INFO : Enable keepalive
+2024-07-01 14:36:35.881 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 14:36:35.881 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-01 14:36:35.881 - Device - DEBUG : cmd: QUERYFWV?
+2024-07-01 14:36:35.883 - Device - INFO : [UD-BD22470039-24] _queryFWVer(): 2.1.2
+2024-07-01 14:36:35.883 - Device - DEBUG : Calling dev_func: 'queryHWVer()'with () and {}
+2024-07-01 14:36:35.883 - Device - DEBUG : cmd: QUERYHWV?
+2024-07-01 14:36:35.885 - Device - INFO : [UD-BD22470039-24] queryHWVer(): 0013
+2024-07-01 14:36:35.885 - Device - INFO : DEV_UD_5G: 0013, FW: v2.1.2
+2024-07-01 14:36:35.885 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-01 14:36:35.885 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-01 14:36:35.887 - Device - INFO : [UD-BD22470039-24] getState(): 1000000000
+2024-07-01 14:36:35.887 - Device - INFO : Current state: {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 0, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-01 14:36:35.887 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-01 14:36:35.887 - TLKCoreService - DEBUG : DeInit for D2245E028-28
+2024-07-01 14:36:35.887 - Comm - DEBUG : Closed socket
+2024-07-01 14:36:35.887 - Device - DEBUG : Del object: BBoxOne28A
+2024-07-01 14:36:35.887 - TLKCoreService - DEBUG : DeInit for D2245E027-28
+2024-07-01 14:36:35.887 - Comm - DEBUG : Closed socket
+2024-07-01 14:36:35.887 - Device - DEBUG : Del object: BBoxOne28A
+2024-07-01 14:36:35.887 - TLKCoreService - DEBUG : DeInit for UD-BD22470039-24
+2024-07-01 14:36:35.888 - Comm - DEBUG : Closed socket
+2024-07-01 14:36:35.888 - Device - DEBUG : Del object: UDBox
+2024-07-01 14:55:23.565 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-01 14:55:23.565 - TLKCoreService - INFO : Log config path: /home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/logging.conf
+2024-07-01 14:55:23.565 - TLKCoreService - INFO : Log file folder: /home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/tlk_core_log
+2024-07-01 14:55:23.565 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-01 14:55:23.565 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-01 14:55:23.566 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-01 14:55:23.566 - Comm - INFO : Scan LAN
+2024-07-01 14:55:23.566 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-01 14:55:23.566 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-01 14:55:23.566 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-01 14:55:23.567 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.6
+2024-07-01 14:55:23.567 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.224
+2024-07-01 14:55:23.569 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.214
+2024-07-01 14:55:23.667 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-01 14:55:25.271 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-01 14:55:25.569 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-01 14:55:25.569 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-01 14:55:25.569 - Comm - INFO : Scan ComPort
+2024-07-01 14:55:25.572 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-01 14:55:25.572 - Comm - INFO : Scan USB
+2024-07-01 14:55:25.574 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-01 14:55:25.574 - Comm - INFO : Scanned 0 USB devices
+2024-07-01 14:55:25.574 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-01 14:55:25.574 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.6
+2024-07-01 14:55:25.574 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-01 14:55:25.574 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-01 14:55:25.574 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.224
+2024-07-01 14:55:25.574 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-01 14:55:25.574 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-01 14:55:25.574 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.214
+2024-07-01 14:55:25.574 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-01 14:55:25.578 - TLKCoreService - DEBUG : Loading BBoxOne28A from: <module 'tlkcore.tmydev.DevBBoxOne' from '/home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/lib/tlkcore/tmydev/DevBBoxOne.so'>
+2024-07-01 14:55:25.578 - Device - INFO : General device init
+2024-07-01 14:55:25.578 - Device - INFO : SN          : D2245E028-28
+2024-07-01 14:55:25.578 - Device - INFO : ADDRESS     : 192.168.137.6
+2024-07-01 14:55:25.578 - Device - INFO : DEVICE_TYPE : 9
+2024-07-01 14:55:25.578 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-01 14:55:25.579 - Comm - INFO : 0) TCP connected to 192.168.137.6:5025
+2024-07-01 14:55:25.579 - Comm - INFO : Enable keepalive
+2024-07-01 14:55:25.579 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 14:55:25.579 - Device - DEBUG : DevBBox init
+2024-07-01 14:55:25.579 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-01 14:55:25.579 - Device - DEBUG : cmd: QUERY_FW_VERSION
+2024-07-01 14:55:25.587 - Device - INFO : [D2245E028-28] _queryFWVer(): v1.2.14
+2024-07-01 14:55:25.587 - Device - INFO : FW: v1.2.14
+2024-07-01 14:55:25.587 - Device - DEBUG : DevBBoxOne init
+2024-07-01 14:55:25.587 - Device - DEBUG : BBoxOne28A init
+2024-07-01 14:55:25.587 - Device - DEBUG : Calling dev_func: 'initDev()'with () and {}
+2024-07-01 14:55:25.587 - Device - DEBUG : cmd: INIT 0
+2024-07-01 14:55:25.629 - Device - INFO : [D2245E028-28] initDev(): 0
+2024-07-01 14:55:25.629 - Device - INFO : initDev result: OK:<class 'int'>
+2024-07-01 14:55:25.629 - Device - DEBUG : Default TC config: [[[8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11]]]
+2024-07-01 14:55:25.630 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-01 14:55:25.630 - Device - INFO : Device D2245E028-28 init done
+2024-07-01 14:55:25.630 - TLKCoreService - DEBUG : Loading BBoxOne28A from: <module 'tlkcore.tmydev.DevBBoxOne' from '/home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/lib/tlkcore/tmydev/DevBBoxOne.so'>
+2024-07-01 14:55:25.630 - Device - INFO : General device init
+2024-07-01 14:55:25.630 - Device - INFO : SN          : D2245E027-28
+2024-07-01 14:55:25.630 - Device - INFO : ADDRESS     : 192.168.137.224
+2024-07-01 14:55:25.630 - Device - INFO : DEVICE_TYPE : 9
+2024-07-01 14:55:25.630 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-01 14:55:25.630 - Comm - INFO : 0) TCP connected to 192.168.137.224:5025
+2024-07-01 14:55:25.630 - Comm - INFO : Enable keepalive
+2024-07-01 14:55:25.630 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 14:55:25.630 - Device - DEBUG : DevBBox init
+2024-07-01 14:55:25.630 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-01 14:55:25.630 - Device - DEBUG : cmd: QUERY_FW_VERSION
+2024-07-01 14:55:25.639 - Device - INFO : [D2245E027-28] _queryFWVer(): v1.2.14
+2024-07-01 14:55:25.639 - Device - INFO : FW: v1.2.14
+2024-07-01 14:55:25.639 - Device - DEBUG : DevBBoxOne init
+2024-07-01 14:55:25.639 - Device - DEBUG : BBoxOne28A init
+2024-07-01 14:55:25.639 - Device - DEBUG : Calling dev_func: 'initDev()'with () and {}
+2024-07-01 14:55:25.639 - Device - DEBUG : cmd: INIT 0
+2024-07-01 14:55:25.681 - Device - INFO : [D2245E027-28] initDev(): 0
+2024-07-01 14:55:25.681 - Device - INFO : initDev result: OK:<class 'int'>
+2024-07-01 14:55:25.681 - Device - DEBUG : Default TC config: [[[8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11]]]
+2024-07-01 14:55:25.681 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-01 14:55:25.682 - Device - INFO : Device D2245E027-28 init done
+2024-07-01 14:55:25.683 - TLKCoreService - DEBUG : Loading UDBox from: <module 'tlkcore.tmydev.DevUDBox' from '/home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/lib/tlkcore/tmydev/DevUDBox.so'>
+2024-07-01 14:55:25.683 - Device - INFO : General device init
+2024-07-01 14:55:25.683 - Device - INFO : SN          : UD-BD22470039-24
+2024-07-01 14:55:25.683 - Device - INFO : ADDRESS     : 192.168.137.214
+2024-07-01 14:55:25.683 - Device - INFO : DEVICE_TYPE : 15
+2024-07-01 14:55:25.683 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-01 14:55:25.683 - Comm - INFO : 0) TCP connected to 192.168.137.214:5025
+2024-07-01 14:55:25.683 - Comm - INFO : Enable keepalive
+2024-07-01 14:55:25.683 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 14:55:25.683 - Device - DEBUG : DevUDBox init
+2024-07-01 14:55:25.683 - Comm - DEBUG : Closed socket
+2024-07-01 14:55:25.688 - Comm - INFO : 0) TCP connected to 192.168.137.214:5025
+2024-07-01 14:55:25.688 - Comm - INFO : Enable keepalive
+2024-07-01 14:55:25.688 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 14:55:25.689 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-01 14:55:25.689 - Device - DEBUG : cmd: QUERYFWV?
+2024-07-01 14:55:25.691 - Device - INFO : [UD-BD22470039-24] _queryFWVer(): 2.1.2
+2024-07-01 14:55:25.691 - Device - DEBUG : Calling dev_func: 'queryHWVer()'with () and {}
+2024-07-01 14:55:25.691 - Device - DEBUG : cmd: QUERYHWV?
+2024-07-01 14:55:25.693 - Device - INFO : [UD-BD22470039-24] queryHWVer(): 0013
+2024-07-01 14:55:25.693 - Device - INFO : DEV_UD_5G: 0013, FW: v2.1.2
+2024-07-01 14:55:25.693 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-01 14:55:25.693 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-01 14:55:25.695 - Device - INFO : [UD-BD22470039-24] getState(): 1000000000
+2024-07-01 14:55:25.695 - Device - INFO : Current state: {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 0, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-01 14:55:25.695 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-01 14:55:25.695 - TLKCoreService - DEBUG : DeInit for D2245E028-28
+2024-07-01 14:55:25.695 - Comm - DEBUG : Closed socket
+2024-07-01 14:55:25.696 - Device - DEBUG : Del object: BBoxOne28A
+2024-07-01 14:55:25.696 - TLKCoreService - DEBUG : DeInit for D2245E027-28
+2024-07-01 14:55:25.696 - Comm - DEBUG : Closed socket
+2024-07-01 14:55:25.696 - Device - DEBUG : Del object: BBoxOne28A
+2024-07-01 14:55:25.696 - TLKCoreService - DEBUG : DeInit for UD-BD22470039-24
+2024-07-01 14:55:25.696 - Comm - DEBUG : Closed socket
+2024-07-01 14:55:25.696 - Device - DEBUG : Del object: UDBox
+2024-07-01 15:50:57. 12 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-01 15:50:57. 12 - TLKCoreService - INFO : Log config path: /home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/logging.conf
+2024-07-01 15:50:57. 12 - TLKCoreService - INFO : Log file folder: /home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/tlk_core_log
+2024-07-01 15:50:57. 12 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-01 15:50:57. 12 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-01 15:50:57. 12 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-01 15:50:57. 12 - Comm - INFO : Scan LAN
+2024-07-01 15:50:57. 13 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-01 15:50:57. 13 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-01 15:50:57. 13 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-01 15:50:57. 14 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.6
+2024-07-01 15:50:57. 14 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.224
+2024-07-01 15:50:57. 15 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.214
+2024-07-01 15:50:57.114 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-01 15:50:58.722 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-01 15:50:59. 20 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-01 15:50:59. 20 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-01 15:50:59. 21 - Comm - INFO : Scan ComPort
+2024-07-01 15:50:59. 27 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-01 15:50:59. 27 - Comm - INFO : Scan USB
+2024-07-01 15:50:59. 29 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-01 15:50:59. 29 - Comm - INFO : Scanned 0 USB devices
+2024-07-01 15:50:59. 29 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-01 15:50:59. 29 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.6
+2024-07-01 15:50:59. 29 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-01 15:50:59. 29 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-01 15:50:59. 29 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.224
+2024-07-01 15:50:59. 29 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-01 15:50:59. 29 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-01 15:50:59. 29 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.214
+2024-07-01 15:50:59. 29 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-01 15:50:59. 33 - TLKCoreService - DEBUG : Loading BBoxOne28A from: <module 'tlkcore.tmydev.DevBBoxOne' from '/home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/lib/tlkcore/tmydev/DevBBoxOne.so'>
+2024-07-01 15:50:59. 33 - Device - INFO : General device init
+2024-07-01 15:50:59. 33 - Device - INFO : SN          : D2245E028-28
+2024-07-01 15:50:59. 33 - Device - INFO : ADDRESS     : 192.168.137.6
+2024-07-01 15:50:59. 33 - Device - INFO : DEVICE_TYPE : 9
+2024-07-01 15:50:59. 33 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-01 15:50:59. 34 - Comm - INFO : 0) TCP connected to 192.168.137.6:5025
+2024-07-01 15:50:59. 34 - Comm - INFO : Enable keepalive
+2024-07-01 15:50:59. 34 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 15:50:59. 34 - Device - DEBUG : DevBBox init
+2024-07-01 15:50:59. 34 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-01 15:50:59. 34 - Device - DEBUG : cmd: QUERY_FW_VERSION
+2024-07-01 15:50:59. 42 - Device - INFO : [D2245E028-28] _queryFWVer(): v1.2.14
+2024-07-01 15:50:59. 43 - Device - INFO : FW: v1.2.14
+2024-07-01 15:50:59. 43 - Device - DEBUG : DevBBoxOne init
+2024-07-01 15:50:59. 43 - Device - DEBUG : BBoxOne28A init
+2024-07-01 15:50:59. 43 - Device - DEBUG : Calling dev_func: 'initDev()'with () and {}
+2024-07-01 15:50:59. 43 - Device - DEBUG : cmd: INIT 0
+2024-07-01 15:50:59. 85 - Device - INFO : [D2245E028-28] initDev(): 0
+2024-07-01 15:50:59. 85 - Device - INFO : initDev result: OK:<class 'int'>
+2024-07-01 15:50:59. 85 - Device - DEBUG : Default TC config: [[[8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11]]]
+2024-07-01 15:50:59. 86 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-01 15:50:59. 87 - Device - INFO : Device D2245E028-28 init done
+2024-07-01 15:50:59. 87 - TLKCoreService - DEBUG : Loading BBoxOne28A from: <module 'tlkcore.tmydev.DevBBoxOne' from '/home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/lib/tlkcore/tmydev/DevBBoxOne.so'>
+2024-07-01 15:50:59. 87 - Device - INFO : General device init
+2024-07-01 15:50:59. 88 - Device - INFO : SN          : D2245E027-28
+2024-07-01 15:50:59. 88 - Device - INFO : ADDRESS     : 192.168.137.224
+2024-07-01 15:50:59. 88 - Device - INFO : DEVICE_TYPE : 9
+2024-07-01 15:50:59. 88 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-01 15:50:59. 88 - Comm - INFO : 0) TCP connected to 192.168.137.224:5025
+2024-07-01 15:50:59. 88 - Comm - INFO : Enable keepalive
+2024-07-01 15:50:59. 89 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 15:50:59. 89 - Device - DEBUG : DevBBox init
+2024-07-01 15:50:59. 89 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-01 15:50:59. 89 - Device - DEBUG : cmd: QUERY_FW_VERSION
+2024-07-01 15:50:59. 97 - Device - INFO : [D2245E027-28] _queryFWVer(): v1.2.14
+2024-07-01 15:50:59. 97 - Device - INFO : FW: v1.2.14
+2024-07-01 15:50:59. 98 - Device - DEBUG : DevBBoxOne init
+2024-07-01 15:50:59. 98 - Device - DEBUG : BBoxOne28A init
+2024-07-01 15:50:59. 98 - Device - DEBUG : Calling dev_func: 'initDev()'with () and {}
+2024-07-01 15:50:59. 98 - Device - DEBUG : cmd: INIT 0
+2024-07-01 15:50:59.140 - Device - INFO : [D2245E027-28] initDev(): 0
+2024-07-01 15:50:59.140 - Device - INFO : initDev result: OK:<class 'int'>
+2024-07-01 15:50:59.140 - Device - DEBUG : Default TC config: [[[8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11]]]
+2024-07-01 15:50:59.141 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-01 15:50:59.142 - Device - INFO : Device D2245E027-28 init done
+2024-07-01 15:50:59.143 - TLKCoreService - DEBUG : Loading UDBox from: <module 'tlkcore.tmydev.DevUDBox' from '/home/sunlab/tlkcore-examples/release/TLKCore_v2.0.0_Linux_Python3.10-64bit/lib/tlkcore/tmydev/DevUDBox.so'>
+2024-07-01 15:50:59.144 - Device - INFO : General device init
+2024-07-01 15:50:59.144 - Device - INFO : SN          : UD-BD22470039-24
+2024-07-01 15:50:59.144 - Device - INFO : ADDRESS     : 192.168.137.214
+2024-07-01 15:50:59.144 - Device - INFO : DEVICE_TYPE : 15
+2024-07-01 15:50:59.144 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-01 15:50:59.144 - Comm - INFO : 0) TCP connected to 192.168.137.214:5025
+2024-07-01 15:50:59.144 - Comm - INFO : Enable keepalive
+2024-07-01 15:50:59.144 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 15:50:59.144 - Device - DEBUG : DevUDBox init
+2024-07-01 15:50:59.145 - Comm - DEBUG : Closed socket
+2024-07-01 15:50:59.150 - Comm - INFO : 0) TCP connected to 192.168.137.214:5025
+2024-07-01 15:50:59.150 - Comm - INFO : Enable keepalive
+2024-07-01 15:50:59.151 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-01 15:50:59.151 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-01 15:50:59.151 - Device - DEBUG : cmd: QUERYFWV?
+2024-07-01 15:50:59.153 - Device - INFO : [UD-BD22470039-24] _queryFWVer(): 2.1.2
+2024-07-01 15:50:59.153 - Device - DEBUG : Calling dev_func: 'queryHWVer()'with () and {}
+2024-07-01 15:50:59.153 - Device - DEBUG : cmd: QUERYHWV?
+2024-07-01 15:50:59.155 - Device - INFO : [UD-BD22470039-24] queryHWVer(): 0013
+2024-07-01 15:50:59.155 - Device - INFO : DEV_UD_5G: 0013, FW: v2.1.2
+2024-07-01 15:50:59.156 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-01 15:50:59.156 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-01 15:50:59.158 - Device - INFO : [UD-BD22470039-24] getState(): 1110000000
+2024-07-01 15:50:59.158 - Device - INFO : Current state: {'PLO_LOCK': 1, 'CH1': 1, 'CH2': 1, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-01 15:50:59.158 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-01 15:50:59.159 - TLKCoreService - DEBUG : DeInit for D2245E028-28
+2024-07-01 15:50:59.159 - Comm - DEBUG : Closed socket
+2024-07-01 15:50:59.159 - Device - DEBUG : Del object: BBoxOne28A
+2024-07-01 15:50:59.159 - TLKCoreService - DEBUG : DeInit for D2245E027-28
+2024-07-01 15:50:59.159 - Comm - DEBUG : Closed socket
+2024-07-01 15:50:59.159 - Device - DEBUG : Del object: BBoxOne28A
+2024-07-01 15:50:59.159 - TLKCoreService - DEBUG : DeInit for UD-BD22470039-24
+2024-07-01 15:50:59.159 - Comm - DEBUG : Closed socket
+2024-07-01 15:50:59.159 - Device - DEBUG : Del object: UDBox

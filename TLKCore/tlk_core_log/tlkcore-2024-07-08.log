@@ -1,0 +1,607 @@
+2024-07-08 10:41:52.191 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-08 10:41:52.191 - TLKCoreService - INFO : Log config path: /home/sunlab/mm_csi_beamforming/TLKCore/logging.conf
+2024-07-08 10:41:52.191 - TLKCoreService - INFO : Log file folder: /home/sunlab/mm_csi_beamforming/TLKCore/tlk_core_log
+2024-07-08 10:41:52.191 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-08 10:41:52.191 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-08 10:41:52.191 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-08 10:41:52.191 - Comm - INFO : Scan LAN
+2024-07-08 10:41:52.191 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-08 10:41:52.191 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-08 10:41:52.191 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-08 10:41:52.192 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.111
+2024-07-08 10:41:52.193 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.16
+2024-07-08 10:41:52.193 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.147
+2024-07-08 10:41:52.292 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-08 10:41:53.899 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-08 10:41:54.199 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-08 10:41:54.199 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-08 10:41:54.199 - Comm - INFO : Scan ComPort
+2024-07-08 10:41:54.207 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-08 10:41:54.207 - Comm - INFO : Scan USB
+2024-07-08 10:41:54.209 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-08 10:41:54.209 - Comm - INFO : Scanned 0 USB devices
+2024-07-08 10:41:54.209 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-08 10:41:54.209 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.111
+2024-07-08 10:41:54.209 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 10:41:54.209 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-08 10:41:54.209 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.16
+2024-07-08 10:41:54.209 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 10:41:54.209 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-08 10:41:54.209 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.147
+2024-07-08 10:41:54.209 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-08 10:41:54.213 - TLKCoreService - DEBUG : Loading BBoxOne28A from: <module 'tlkcore.tmydev.DevBBoxOne' from '/home/sunlab/mm_csi_beamforming/TLKCore/lib/tlkcore/tmydev/DevBBoxOne.so'>
+2024-07-08 10:41:54.213 - Device - INFO : General device init
+2024-07-08 10:41:54.213 - Device - INFO : SN          : D2245E028-28
+2024-07-08 10:41:54.213 - Device - INFO : ADDRESS     : 192.168.137.111
+2024-07-08 10:41:54.213 - Device - INFO : DEVICE_TYPE : 9
+2024-07-08 10:41:54.213 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-08 10:41:54.214 - Comm - INFO : 0) TCP connected to 192.168.137.111:5025
+2024-07-08 10:41:54.214 - Comm - INFO : Enable keepalive
+2024-07-08 10:41:54.214 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-08 10:41:54.214 - Device - DEBUG : DevBBox init
+2024-07-08 10:41:54.214 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-08 10:41:54.214 - Device - DEBUG : cmd: QUERY_FW_VERSION
+2024-07-08 10:41:54.222 - Device - INFO : [D2245E028-28] _queryFWVer(): v1.2.14
+2024-07-08 10:41:54.222 - Device - INFO : FW: v1.2.14
+2024-07-08 10:41:54.222 - Device - DEBUG : DevBBoxOne init
+2024-07-08 10:41:54.222 - Device - DEBUG : BBoxOne28A init
+2024-07-08 10:41:54.222 - Device - DEBUG : Calling dev_func: 'initDev()'with () and {}
+2024-07-08 10:41:54.222 - Device - DEBUG : cmd: INIT 0
+2024-07-08 10:41:54.265 - Device - INFO : [D2245E028-28] initDev(): 0
+2024-07-08 10:41:54.265 - Device - INFO : initDev result: OK:<class 'int'>
+2024-07-08 10:41:54.265 - Device - DEBUG : Default TC config: [[[8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11]]]
+2024-07-08 10:41:54.266 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-08 10:41:54.267 - Device - INFO : Device D2245E028-28 init done
+2024-07-08 10:41:54.267 - TLKCoreService - DEBUG : Calling func: 'getDevTypeName()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:54.267 - TLKCoreService - DEBUG : Loading BBoxOne28A from: <module 'tlkcore.tmydev.DevBBoxOne' from '/home/sunlab/mm_csi_beamforming/TLKCore/lib/tlkcore/tmydev/DevBBoxOne.so'>
+2024-07-08 10:41:54.267 - Device - INFO : General device init
+2024-07-08 10:41:54.268 - Device - INFO : SN          : D2245E027-28
+2024-07-08 10:41:54.268 - Device - INFO : ADDRESS     : 192.168.137.16
+2024-07-08 10:41:54.268 - Device - INFO : DEVICE_TYPE : 9
+2024-07-08 10:41:54.268 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-08 10:41:54.268 - Comm - INFO : 0) TCP connected to 192.168.137.16:5025
+2024-07-08 10:41:54.269 - Comm - INFO : Enable keepalive
+2024-07-08 10:41:54.269 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-08 10:41:54.269 - Device - DEBUG : DevBBox init
+2024-07-08 10:41:54.269 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-08 10:41:54.269 - Device - DEBUG : cmd: QUERY_FW_VERSION
+2024-07-08 10:41:54.277 - Device - INFO : [D2245E027-28] _queryFWVer(): v1.2.14
+2024-07-08 10:41:54.278 - Device - INFO : FW: v1.2.14
+2024-07-08 10:41:54.278 - Device - DEBUG : DevBBoxOne init
+2024-07-08 10:41:54.278 - Device - DEBUG : BBoxOne28A init
+2024-07-08 10:41:54.278 - Device - DEBUG : Calling dev_func: 'initDev()'with () and {}
+2024-07-08 10:41:54.278 - Device - DEBUG : cmd: INIT 0
+2024-07-08 10:41:54.321 - Device - INFO : [D2245E027-28] initDev(): 0
+2024-07-08 10:41:54.321 - Device - INFO : initDev result: OK:<class 'int'>
+2024-07-08 10:41:54.321 - Device - DEBUG : Default TC config: [[[8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11], [8, 6, 2, 11]]]
+2024-07-08 10:41:54.322 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-08 10:41:54.323 - Device - INFO : Device D2245E027-28 init done
+2024-07-08 10:41:54.323 - TLKCoreService - DEBUG : Calling func: 'getDevTypeName()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:54.324 - TLKCoreService - DEBUG : Loading UDBox from: <module 'tlkcore.tmydev.DevUDBox' from '/home/sunlab/mm_csi_beamforming/TLKCore/lib/tlkcore/tmydev/DevUDBox.so'>
+2024-07-08 10:41:54.324 - Device - INFO : General device init
+2024-07-08 10:41:54.325 - Device - INFO : SN          : UD-BD22470039-24
+2024-07-08 10:41:54.325 - Device - INFO : ADDRESS     : 192.168.137.147
+2024-07-08 10:41:54.325 - Device - INFO : DEVICE_TYPE : 15
+2024-07-08 10:41:54.325 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-08 10:41:54.325 - Comm - INFO : 0) TCP connected to 192.168.137.147:5025
+2024-07-08 10:41:54.325 - Comm - INFO : Enable keepalive
+2024-07-08 10:41:54.326 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-08 10:41:54.326 - Device - DEBUG : DevUDBox init
+2024-07-08 10:41:54.326 - Comm - DEBUG : Closed socket
+2024-07-08 10:41:54.331 - Comm - INFO : 0) TCP connected to 192.168.137.147:5025
+2024-07-08 10:41:54.332 - Comm - INFO : Enable keepalive
+2024-07-08 10:41:54.332 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-08 10:41:54.332 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-08 10:41:54.332 - Device - DEBUG : cmd: QUERYFWV?
+2024-07-08 10:41:54.334 - Device - INFO : [UD-BD22470039-24] _queryFWVer(): 2.1.2
+2024-07-08 10:41:54.334 - Device - DEBUG : Calling dev_func: 'queryHWVer()'with () and {}
+2024-07-08 10:41:54.334 - Device - DEBUG : cmd: QUERYHWV?
+2024-07-08 10:41:54.336 - Device - INFO : [UD-BD22470039-24] queryHWVer(): 0013
+2024-07-08 10:41:54.336 - Device - INFO : DEV_UD_5G: 0013, FW: v2.1.2
+2024-07-08 10:41:54.336 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-08 10:41:54.336 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-08 10:41:54.339 - Device - INFO : [UD-BD22470039-24] getState(): 1110000000
+2024-07-08 10:41:54.339 - Device - INFO : Current state: {'PLO_LOCK': 1, 'CH1': 1, 'CH2': 1, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 10:41:54.339 - TLKCoreService - DEBUG : Calling func: 'getDevTypeName()'with ('UD-BD22470039-24',) and {}
+2024-07-08 10:41:54.340 - TLKCoreService - DEBUG : Calling func: 'getDevTypeName()'with ('UD-BD22470039-24',) and {}
+2024-07-08 10:41:54.340 - TLKCoreService - DEBUG : Calling func: 'setUDState()'with ('UD-BD22470039-24', 0, <UDState.CH1: 1>) and {}
+2024-07-08 10:41:54.340 - Device - DEBUG : Calling dev_func: 'setState()'with ('101000000',) and {}
+2024-07-08 10:41:54.340 - Device - DEBUG : cmd: UDSETSTATE 101000000
+2024-07-08 10:41:54.344 - Device - INFO : [UD-BD22470039-24] setState(): 1010000000
+2024-07-08 10:41:54.344 - TLKCoreService - DEBUG : Calling func: 'setUDState()'with ('UD-BD22470039-24', 0, <UDState.CH2: 2>) and {}
+2024-07-08 10:41:54.344 - Device - DEBUG : Calling dev_func: 'setState()'with ('100000000',) and {}
+2024-07-08 10:41:54.344 - Device - DEBUG : cmd: UDSETSTATE 100000000
+2024-07-08 10:41:54.348 - Device - INFO : [UD-BD22470039-24] setState(): 1000000000
+2024-07-08 10:41:54.348 - TLKCoreService - DEBUG : Calling func: 'getUDState()'with ('UD-BD22470039-24', <UDState.PLO_LOCK: 0>) and {}
+2024-07-08 10:41:54.348 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-08 10:41:54.348 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-08 10:41:54.351 - Device - INFO : [UD-BD22470039-24] getState(): 1000000000
+2024-07-08 10:41:54.351 - TLKCoreService - DEBUG : Calling func: 'getUDState()'with ('UD-BD22470039-24',) and {}
+2024-07-08 10:41:54.352 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-08 10:41:54.352 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-08 10:41:54.354 - Device - INFO : [UD-BD22470039-24] getState(): 1000000000
+2024-07-08 10:41:54.354 - TLKCoreService - DEBUG : Calling func: 'getUDFreq()'with ('UD-BD22470039-24',) and {}
+2024-07-08 10:41:54.354 - Device - WARNING : This FW ver not support query current frequency from UD
+2024-07-08 10:41:54.354 - TLKCoreService - DEBUG : Calling func: 'setUDState()'with ('UD-BD22470039-24', <UD_REF.INTERNAL: 0>, <UDState.SOURCE_100M: 5>) and {}
+2024-07-08 10:41:54.354 - Device - DEBUG : Calling dev_func: 'setState()'with ('100000000',) and {}
+2024-07-08 10:41:54.354 - Device - DEBUG : cmd: UDSETSTATE 100000000
+2024-07-08 10:41:54.358 - Device - INFO : [UD-BD22470039-24] setState(): 1000000000
+2024-07-08 10:41:54.359 - TLKCoreService - DEBUG : Calling func: 'getHarmonic()'with ('UD-BD22470039-24', 25548000, 28000000, 2452000, 50000) and {}
+2024-07-08 10:41:54.359 - TLKCoreService - DEBUG : Calling func: 'setUDFreq()'with ('UD-BD22470039-24', 25548000, 28000000, 2452000, 50000) and {}
+2024-07-08 10:41:54.425 - Device - INFO : [UD-BD22470039-24] Set freq to FW: UD-BD22470039-24,0
+2024-07-08 10:41:54.425 - TLKCoreService - DEBUG : Calling func: 'setUDState()'with ('UD-BD22470039-24', 1, <UDState.CH1: 1>) and {}
+2024-07-08 10:41:54.425 - Device - DEBUG : Calling dev_func: 'setState()'with ('110000000',) and {}
+2024-07-08 10:41:54.425 - Device - DEBUG : cmd: UDSETSTATE 110000000
+2024-07-08 10:41:54.430 - Device - INFO : [UD-BD22470039-24] setState(): 1100000000
+2024-07-08 10:41:54.431 - TLKCoreService - DEBUG : Calling func: 'setUDState()'with ('UD-BD22470039-24', 1, <UDState.CH2: 2>) and {}
+2024-07-08 10:41:54.431 - Device - DEBUG : Calling dev_func: 'setState()'with ('111000000',) and {}
+2024-07-08 10:41:54.431 - Device - DEBUG : cmd: UDSETSTATE 111000000
+2024-07-08 10:41:54.435 - Device - INFO : [UD-BD22470039-24] setState(): 1110000000
+2024-07-08 10:41:54.435 - TLKCoreService - DEBUG : Calling func: 'getUDFreq()'with ('UD-BD22470039-24',) and {}
+2024-07-08 10:41:54.435 - Device - WARNING : This FW ver not support query current frequency from UD
+2024-07-08 10:41:54.435 - TLKCoreService - DEBUG : Calling func: 'getUDState()'with ('UD-BD22470039-24',) and {}
+2024-07-08 10:41:54.436 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-08 10:41:54.436 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-08 10:41:54.438 - Device - INFO : [UD-BD22470039-24] getState(): 1110000000
+2024-07-08 10:41:54.439 - TLKCoreService - DEBUG : Calling func: 'setRFMode()'with ('D2245E027-28', <RFMode.TX: 0>) and {}
+2024-07-08 10:41:54.440 - Device - INFO : [D2245E027-28] Set RF mode: TX
+2024-07-08 10:41:54.441 - TLKCoreService - DEBUG : Calling func: 'getFrequencyList()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:54.441 - Device - DEBUG : Calling dev_func: 'getFrequencyList()'with () and {}
+2024-07-08 10:41:54.441 - TLKCoreService - DEBUG : Calling func: 'setOperatingFreq()'with ('D2245E027-28', 28.0) and {}
+2024-07-08 10:41:54.441 - Device - DEBUG : Calling dev_func: 'getFrequencyList()'with () and {}
+2024-07-08 10:41:54.441 - CaliTbl - INFO : Cali file path: /home/sunlab/mm_csi_beamforming/TLKCore/files/D2245E027-28_28GHz.csv
+2024-07-08 10:41:54.442 - CaliTbl - DEBUG : VER: 2.3.7
+2024-07-08 10:41:54.442 - CaliTbl - DEBUG : REALVER: 2.3.7
+2024-07-08 10:41:54.442 - CaliTbl - DEBUG : SN: D2245E027-28
+2024-07-08 10:41:54.442 - CaliTbl - DEBUG : FCENTER: 28
+2024-07-08 10:41:54.442 - CaliTbl - DEBUG : RXmode DR: {-15.500000~4.500000}
+2024-07-08 10:41:54.442 - CaliTbl - DEBUG : TXmode DR: {-5.500000~12.000000}
+2024-07-08 10:41:55.549 - CaliTbl - INFO : /home/sunlab/mm_csi_beamforming/TLKCore/files/D2245E027-28_28GHz.csv parsing done
+2024-07-08 10:41:55.549 - Device - DEBUG : Update TC config: [[[7, 3, 2, 9], [7, 3, 2, 9], [7, 3, 2, 9], [7, 3, 2, 9]]] from cali table
+2024-07-08 10:41:55.549 - Device - DEBUG : Calling dev_func: 'queryTCEnable()'with () and {}
+2024-07-08 10:41:55.549 - Device - DEBUG : cmd: QUERY_TC_SWITCH
+2024-07-08 10:41:55.550 - Device - INFO : [D2245E027-28] queryTCEnable(): 0
+2024-07-08 10:41:55.550 - Device - DEBUG : SetTC(): TC config TC_MODULE_CTRL_ 4,0,7,3,2,9,7,3,2,9,7,3,2,9,7,3,2,9
+2024-07-08 10:41:55.552 - Device - DEBUG : [D2245E027-28] SetTC(): 0
+2024-07-08 10:41:55.552 - Device - DEBUG : Null beam table, first loading
+2024-07-08 10:41:55.552 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-08 10:41:55.553 - CaliTbl - INFO : All DR: {'COMDR': [[[-7.0, 8.5], [-6.5, 8.5], [-7.0, 8.5], [-5.5, 10.0]], [[-15.5, -0.5], [-15.5, 0.5], [-17.5, -1.5], [-16.0, 0.0]]], 'ELEDR': [[3.5, 4.0, 5.0, 4.0], [5.5, 5.5, 6.0, 5.5]], 'COMSTEPDR': [[{'COM_0': ['12.064', '6.431'], 'COM_1': ['10.964', '5.357'], 'COM_2': ['9.755', '4.134'], 'COM_3': ['8.55', '2.936'], 'COM_4': ['7.607', '1.997'], 'COM_5': ['6.193', '0.561'], 'COM_6': ['5.861', '0.234'], 'COM_7': ['4.86', '-0.762'], 'COM_8': ['4.11', '-1.522'], 'COM_9': ['3.061', '-2.576'], 'COM_10': ['1.848', '-3.808'], 'COM_11': ['0.657', '-4.953'], 'COM_12': ['-0.283', '-5.896'], 'COM_13': ['-1.702', '-7.301'], 'COM_14': ['-1.689', '-7.317'], 'COM_15': ['-1.677', '-7.303']}, {'COM_0': ['12.859', '7.05'], 'COM_1': ['11.803', '5.96'], 'COM_2': ['10.591', '4.749'], 'COM_3': ['9.399', '3.553'], 'COM_4': ['8.511', '2.637'], 'COM_5': ['7.07', '1.207'], 'COM_6': ['6.617', '0.724'], 'COM_7': ['5.604', '-0.284'], 'COM_8': ['4.901', '-1.0'], 'COM_9': ['3.854', '-2.081'], 'COM_10': ['2.622', '-3.31'], 'COM_11': ['1.451', '-4.482'], 'COM_12': ['0.568', '-5.348'], 'COM_13': ['-0.853', '-6.795'], 'COM_14': ['-0.845', '-6.78'], 'COM_15': ['-0.855', '-6.781']}, {'COM_0': ['13.606', '6.865'], 'COM_1': ['12.543', '5.776'], 'COM_2': ['11.284', '4.519'], 'COM_3': ['10.083', '3.324'], 'COM_4': ['9.168', '2.397'], 'COM_5': ['7.74', '0.956'], 'COM_6': ['7.206', '0.398'], 'COM_7': ['6.17', '-0.635'], 'COM_8': ['5.455', '-1.339'], 'COM_9': ['4.399', '-2.429'], 'COM_10': ['3.132', '-3.68'], 'COM_11': ['1.935', '-4.869'], 'COM_12': ['1.05', '-5.777'], 'COM_13': ['-0.377', '-7.201'], 'COM_14': ['-0.377', '-7.207'], 'COM_15': ['-0.375', '-7.208']}, {'COM_0': ['14.14', '7.846'], 'COM_1': ['13.007', '6.743'], 'COM_2': ['11.795', '5.561'], 'COM_3': ['10.588', '4.326'], 'COM_4': ['9.686', '3.45'], 'COM_5': ['8.209', '2.007'], 'COM_6': ['7.939', '1.715'], 'COM_7': ['6.92', '0.704'], 'COM_8': ['6.225', '0.004'], 'COM_9': ['5.145', '-1.094'], 'COM_10': ['3.945', '-2.23'], 'COM_11': ['2.759', '-3.454'], 'COM_12': ['1.869', '-4.329'], 'COM_13': ['0.397', '-5.826'], 'COM_14': ['0.402', '-5.818'], 'COM_15': ['0.401', '-5.798']}], [{'COM_0': ['5.283', '-1.806'], 'COM_1': ['4.305', '-2.829'], 'COM_2': ['3.614', '-3.508'], 'COM_3': ['2.628', '-4.52'], 'COM_4': ['1.712', '-5.421'], 'COM_5': ['0.686', '-6.427'], 'COM_6': ['-0.02', '-7.132'], 'COM_7': ['-1.059', '-8.206'], 'COM_8': ['-2.299', '-9.441'], 'COM_9': ['-3.459', '-10.613'], 'COM_10': ['-4.351', '-11.509'], 'COM_11': ['-5.746', '-12.911'], 'COM_12': ['-6.11', '-13.25'], 'COM_13': ['-7.116', '-14.269'], 'COM_14': ['-7.819', '-14.954'], 'COM_15': ['-8.856', '-15.984']}, {'COM_0': ['6.352', '-1.115'], 'COM_1': ['5.307', '-2.132'], 'COM_2': ['4.64', '-2.808'], 'COM_3': ['3.622', '-3.829'], 'COM_4': ['2.582', '-4.872'], 'COM_5': ['1.555', '-5.924'], 'COM_6': ['0.835', '-6.625'], 'COM_7': ['-0.249', '-7.683'], 'COM_8': ['-1.416', '-8.881'], 'COM_9': ['-2.612', '-10.066'], 'COM_10': ['-3.492', '-10.949'], 'COM_11': ['-4.904', '-12.368'], 'COM_12': ['-5.288', '-12.762'], 'COM_13': ['-6.318', '-13.783'], 'COM_14': ['-6.998', '-14.45'], 'COM_15': ['-8.044', '-15.513']}, {'COM_0': ['4.509', '-3.346'], 'COM_1': ['3.487', '-4.353'], 'COM_2': ['2.806', '-5.02'], 'COM_3': ['1.816', '-5.988'], 'COM_4': ['0.689', '-7.143'], 'COM_5': ['-0.321', '-8.149'], 'COM_6': ['-1.023', '-8.834'], 'COM_7': ['-2.071', '-9.896'], 'COM_8': ['-3.35', '-11.168'], 'COM_9': ['-4.496', '-12.318'], 'COM_10': ['-5.371', '-13.203'], 'COM_11': ['-6.758', '-14.586'], 'COM_12': ['-7.386', '-15.214'], 'COM_13': ['-8.374', '-16.199'], 'COM_14': ['-9.059', '-16.883'], 'COM_15': ['-10.096', '-17.911']}, {'COM_0': ['5.747', '-1.745'], 'COM_1': ['4.802', '-2.728'], 'COM_2': ['4.06', '-3.468'], 'COM_3': ['3.08', '-4.461'], 'COM_4': ['1.96', '-5.59'], 'COM_5': ['0.981', '-6.579'], 'COM_6': ['0.198', '-7.352'], 'COM_7': ['-0.832', '-8.396'], 'COM_8': ['-2.075', '-9.659'], 'COM_9': ['-3.234', '-10.81'], 'COM_10': ['-4.188', '-11.794'], 'COM_11': ['-5.611', '-13.203'], 'COM_12': ['-5.671', '-13.315'], 'COM_13': ['-6.653', '-14.321'], 'COM_14': ['-7.43', '-15.089'], 'COM_15': ['-8.447', '-16.136']}]]}
+2024-07-08 10:41:55.553 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:55.553 - BeamTbl - INFO : Loading Beam Table by: 28.0GHz, AAKIT_NAME: ''
+2024-07-08 10:41:55.553 - BeamTbl - INFO : Beam Table version: v2.0.0
+2024-07-08 10:41:55.553 - BeamTbl - INFO : Loaded Beam Table from: /home/sunlab/mm_csi_beamforming/TLKCore/files/BeamTable/Beam_Configuration_D2245E027-28_28GHz.json
+2024-07-08 10:41:55.553 - BeamTbl - DEBUG : Saving beam file to /home/sunlab/mm_csi_beamforming/TLKCore/files/BeamTable/Beam_Configuration_D2245E027-28_28GHz.json
+2024-07-08 10:41:55.553 - Device - INFO : [D2245E027-28] Set Freq: 28.000000 OK
+2024-07-08 10:41:55.553 - TLKCoreService - DEBUG : Calling func: 'getOperatingFreq()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.553 - TLKCoreService - DEBUG : Calling func: 'queryCaliTableVer()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.553 - Device - DEBUG : Calling dev_func: 'queryCaliTableVer()'with () and {}
+2024-07-08 10:41:55.553 - TLKCoreService - DEBUG : Calling func: 'getDR()'with ('D2245E027-28', <RFMode.TX: 0>) and {}
+2024-07-08 10:41:55.553 - Device - DEBUG : Calling dev_func: 'getDR()'with (<RFMode.TX: 0>,) and {}
+2024-07-08 10:41:55.553 - TLKCoreService - DEBUG : Calling func: 'getAAKitList()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.553 - Device - DEBUG : Calling dev_func: 'getAAKitList()'with () and {}
+2024-07-08 10:41:55.553 - AAKitTbl - INFO : Parsing (TMYTEK_28ONE_4x4_C2245E029-28)/home/sunlab/mm_csi_beamforming/TLKCore/files/AAKIT_TMYTEK_28ONE_4x4_C2245E029-28.csv done
+2024-07-08 10:41:55.553 - AAKitTbl - INFO : Parsing (TMYTEK_28ONE_4x4_C2245E030-28)/home/sunlab/mm_csi_beamforming/TLKCore/files/AAKIT_TMYTEK_28ONE_4x4_C2245E030-28.csv done
+2024-07-08 10:41:55.553 - TLKCoreService - DEBUG : Calling func: 'selectAAKit()'with ('D2245E027-28', 'TMYTEK_28ONE_4x4_C2245E029-28') and {}
+2024-07-08 10:41:55.553 - BeamTbl - INFO : Loading Beam Table by: 28.0GHz, AAKIT_NAME: 'TMYTEK_28ONE_4x4_C2245E029-28'
+2024-07-08 10:41:55.553 - BeamTbl - INFO : Beam Table version: v2.0.0
+2024-07-08 10:41:55.553 - BeamTbl - INFO : Loaded Beam Table from: /home/sunlab/mm_csi_beamforming/TLKCore/files/BeamTable/Beam_Configuration_D2245E027-28_28GHz_TMYTEK_28ONE_4x4_C2245E029-28.json
+2024-07-08 10:41:55.553 - BeamTbl - DEBUG : Saving beam file to /home/sunlab/mm_csi_beamforming/TLKCore/files/BeamTable/Beam_Configuration_D2245E027-28_28GHz_TMYTEK_28ONE_4x4_C2245E029-28.json
+2024-07-08 10:41:55.554 - TLKCoreService - DEBUG : Calling func: 'getBoardCount()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.554 - TLKCoreService - DEBUG : Calling func: 'getCOMDR()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.554 - Device - DEBUG : Calling dev_func: 'getCOMDR()'with () and {}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : Fetch COMDR from cache
+2024-07-08 10:41:55.554 - TLKCoreService - DEBUG : Calling func: 'getELEDR()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.554 - Device - DEBUG : Calling dev_func: 'getELEDR()'with () and {}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:55.554 - TLKCoreService - DEBUG : Calling func: 'getELEDR()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.554 - Device - DEBUG : Calling dev_func: 'getELEDR()'with () and {}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:55.554 - TLKCoreService - DEBUG : Calling func: 'getELEDR()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.554 - Device - DEBUG : Calling dev_func: 'getELEDR()'with () and {}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:55.554 - TLKCoreService - DEBUG : Calling func: 'getELEDR()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.554 - Device - DEBUG : Calling dev_func: 'getELEDR()'with () and {}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:55.554 - TLKCoreService - DEBUG : Calling func: 'setBeamAngle()'with ('D2245E027-28', 12.0, 0, 0) and {}
+2024-07-08 10:41:55.554 - Device - DEBUG : [AngleToPhaseMatrix] PhaseDiff, X:0.000000, Y:0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/0/0:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/0/1:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/0/2:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/0/3:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/1/0:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/1/1:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/1/2:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/1/3:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/2/0:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/2/1:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/2/2:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/2/3:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/3/0:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/3/1:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/3/2:   0.000000
+2024-07-08 10:41:55.554 - Device - DEBUG : phase 0/3/3:   0.000000
+2024-07-08 10:41:55.554 - Device - INFO : Update offset from AAKit table
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : OFFSET_TX: brd:1, offsets:[75, 100, 100, 90]
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : OFFSET_TX: brd:2, offsets:[80, 110, 110, 95]
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : OFFSET_TX: brd:3, offsets:[90, 125, 120, 110]
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : OFFSET_TX: brd:4, offsets:[75, 110, 105, 95]
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : OFFSET_RX: brd:1, offsets:[85, 105, 100, 95]
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : OFFSET_RX: brd:2, offsets:[85, 105, 110, 95]
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : OFFSET_RX: brd:3, offsets:[95, 120, 115, 105]
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : OFFSET_RX: brd:4, offsets:[85, 105, 100, 95]
+2024-07-08 10:41:55.554 - Device - DEBUG : DevCtrl-cfg0: TX 0/0, finding COMSTEPDR range {12.0 ~ 12.0}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : Search COMSTEPDR -> COM list: ['COM_0']
+2024-07-08 10:41:55.554 - Device - DEBUG : DevCtrl-cfg0: TX 0/1, finding COMSTEPDR range {12.0 ~ 12.0}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : Search COMSTEPDR -> COM list: ['COM_0']
+2024-07-08 10:41:55.554 - Device - DEBUG : DevCtrl-cfg0: TX 0/2, finding COMSTEPDR range {12.0 ~ 12.0}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : Search COMSTEPDR -> COM list: ['COM_0', 'COM_1']
+2024-07-08 10:41:55.554 - Device - DEBUG : DevCtrl-cfg0: TX 0/3, finding COMSTEPDR range {12.0 ~ 12.0}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : Search COMSTEPDR -> COM list: ['COM_0', 'COM_1']
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : [ComData] key: TX, 0/1/[1, 2, 3, 4] gain/phase: [12.0, 12.0, 12.0, 12.0]/[75, 145, 100, 125] with com list: ['COM_0']
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : [ComData] Fetched from BOARD_1: {'COM_0': [[3, 22, 0.133, 1.589], [1, 32, 0.16, 3.229], [4, 25, 0.006, 2.744], [0, 31, 0.248, 0.091]]}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : [ComData] key: TX, 1/1/[1, 2, 3, 4] gain/phase: [12.0, 12.0, 12.0, 12.0]/[130, 170, 150, 135] with com list: ['COM_0']
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : [ComData] Fetched from BOARD_2: {'COM_0': [[5, 38, 0.137, 0.924], [4, 42, 0.223, 2.265], [2, 41, 0.079, 0.587], [5, 37, 0.148, 1.119]]}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : [ComData] key: TX, 2/1/[1, 2, 3, 4] gain/phase: [12.0, 12.0, 12.0, 12.0]/[140, 165, 160, 140] with com list: ['COM_0', 'COM_1']
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : [ComData] Fetched from BOARD_3: {'COM_0': [[2, 34, 0.151, 0.306], [3, 37, 0.053, 1.39], [3, 35, 0.034, 0.948], [4, 32, 0.11, 0.077]], 'COM_1': [[0, 34, 0.29, 0.099], [0, 37, 0.115, 1.08], [1, 35, 0.244, 0.49], [1, 32, 0.002, 0.026]]}
+2024-07-08 10:41:55.554 - CaliTbl - DEBUG : [ComData] key: TX, 3/1/[1, 2, 3, 4] gain/phase: [12.0, 12.0, 12.0, 12.0]/[125, 145, 140, 130] with com list: ['COM_0', 'COM_1']
+2024-07-08 10:41:55.555 - CaliTbl - DEBUG : [ComData] Fetched from BOARD_4: {'COM_0': [[4, 34, 0.218, 0.607], [4, 34, 0.028, 0.296], [5, 35, 0.035, 0.686], [6, 33, 0.022, 1.173]], 'COM_1': [[1, 34, 0.158, 0.619], [1, 34, 0.157, 0.16], [3, 35, 0.049, 1.013], [4, 33, 0.031, 1.096]]}
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/0/0, gain/phase step: 3/22 from gain/phase/COM: 12.0/75/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/0/1, gain/phase step: 1/32 from gain/phase/COM: 12.0/145/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/0/2, gain/phase step: 4/25 from gain/phase/COM: 12.0/100/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/0/3, gain/phase step: 0/31 from gain/phase/COM: 12.0/125/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/1/0, gain/phase step: 5/38 from gain/phase/COM: 12.0/130/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/1/1, gain/phase step: 4/42 from gain/phase/COM: 12.0/170/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/1/2, gain/phase step: 2/41 from gain/phase/COM: 12.0/150/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/1/3, gain/phase step: 5/37 from gain/phase/COM: 12.0/135/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/2/0, gain/phase step: 2/34 from gain/phase/COM: 12.0/140/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/2/1, gain/phase step: 3/37 from gain/phase/COM: 12.0/165/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/2/2, gain/phase step: 3/35 from gain/phase/COM: 12.0/160/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/2/3, gain/phase step: 4/32 from gain/phase/COM: 12.0/140/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/3/0, gain/phase step: 4/34 from gain/phase/COM: 12.0/125/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/3/1, gain/phase step: 4/34 from gain/phase/COM: 12.0/145/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/3/2, gain/phase step: 5/35 from gain/phase/COM: 12.0/140/0
+2024-07-08 10:41:55.555 - Device - DEBUG : [TX] idx:0/3/3, gain/phase step: 6/33 from gain/phase/COM: 12.0/130/0
+2024-07-08 10:41:55.555 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,0,0,0,0,34,37,35,32,2,3,3,4,0,0,0,0,0,38,42,41,37,5,4,2,5,0,0,0,0,0,22,32,25,31,3,1,4,0,0
+2024-07-08 10:41:55.557 - Device - INFO : setBeamAngle(): theta/phi: 0/0 with gain: 12.0 -> OK
+2024-07-08 10:41:55.557 - TLKCoreService - DEBUG : Calling func: 'getTemperatureADC()'with ('D2245E027-28',) and {}
+2024-07-08 10:41:55.559 - Device - INFO : [D2245E027-28] TC: 27,0,1,0,2,24,0,0,0,3,23,2,2,4,0,25,0,5,4,0
+2024-07-08 10:41:55.559 - Device - DEBUG : temp_sense: 25
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet1: 0
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet2: 5
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet3: 4
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet4: 0
+2024-07-08 10:41:55.559 - Device - DEBUG : temp_sense: 23
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet1: 2
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet2: 2
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet3: 4
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet4: 0
+2024-07-08 10:41:55.559 - Device - DEBUG : temp_sense: 24
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet1: 0
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet2: 0
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet3: 0
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet4: 3
+2024-07-08 10:41:55.559 - Device - DEBUG : temp_sense: 27
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet1: 0
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet2: 1
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet3: 0
+2024-07-08 10:41:55.559 - Device - DEBUG : pdet4: 2
+2024-07-08 10:41:55.559 - TLKCoreService - DEBUG : Calling func: 'setRFMode()'with ('D2245E028-28', <RFMode.RX: 1>) and {}
+2024-07-08 10:41:55.561 - Device - INFO : [D2245E028-28] Set RF mode: RX
+2024-07-08 10:41:55.561 - TLKCoreService - DEBUG : Calling func: 'getFrequencyList()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:55.561 - Device - DEBUG : Calling dev_func: 'getFrequencyList()'with () and {}
+2024-07-08 10:41:55.561 - TLKCoreService - DEBUG : Calling func: 'setOperatingFreq()'with ('D2245E028-28', 28.0) and {}
+2024-07-08 10:41:55.561 - Device - DEBUG : Calling dev_func: 'getFrequencyList()'with () and {}
+2024-07-08 10:41:55.561 - CaliTbl - INFO : Cali file path: /home/sunlab/mm_csi_beamforming/TLKCore/files/D2245E028-28_28GHz.csv
+2024-07-08 10:41:55.561 - CaliTbl - DEBUG : VER: 2.3.7
+2024-07-08 10:41:55.561 - CaliTbl - DEBUG : REALVER: 2.3.7
+2024-07-08 10:41:55.561 - CaliTbl - DEBUG : SN: D2245E028-28
+2024-07-08 10:41:55.561 - CaliTbl - DEBUG : FCENTER: 28
+2024-07-08 10:41:55.561 - CaliTbl - DEBUG : RXmode DR: {-16.000000~2.000000}
+2024-07-08 10:41:55.561 - CaliTbl - DEBUG : TXmode DR: {-6.500000~10.500000}
+2024-07-08 10:41:56.672 - CaliTbl - INFO : /home/sunlab/mm_csi_beamforming/TLKCore/files/D2245E028-28_28GHz.csv parsing done
+2024-07-08 10:41:56.672 - Device - DEBUG : Update TC config: [[[7, 3, 2, 9], [7, 1, 2, 7], [7, 3, 2, 9], [8, 3, 3, 9]]] from cali table
+2024-07-08 10:41:56.672 - Device - DEBUG : Calling dev_func: 'queryTCEnable()'with () and {}
+2024-07-08 10:41:56.672 - Device - DEBUG : cmd: QUERY_TC_SWITCH
+2024-07-08 10:41:56.673 - Device - INFO : [D2245E028-28] queryTCEnable(): 0
+2024-07-08 10:41:56.673 - Device - DEBUG : SetTC(): TC config TC_MODULE_CTRL_ 4,0,8,3,3,9,7,3,2,9,7,1,2,7,7,3,2,9
+2024-07-08 10:41:56.675 - Device - DEBUG : [D2245E028-28] SetTC(): 0
+2024-07-08 10:41:56.675 - Device - DEBUG : Null beam table, first loading
+2024-07-08 10:41:56.676 - Device - INFO : RF layout: 4 * 1 * 4
+2024-07-08 10:41:56.676 - CaliTbl - INFO : All DR: {'COMDR': [[[-8.0, 7.5], [-6.5, 8.5], [-7.5, 8.0], [-8.0, 6.5]], [[-17.0, -1.0], [-16.0, 0.0], [-18.5, -2.5], [-19.5, -3.5]]], 'ELEDR': [[4.0, 3.5, 3.5, 4.0], [5.0, 5.0, 5.5, 5.5]], 'COMSTEPDR': [[{'COM_0': ['11.659', '5.398'], 'COM_1': ['10.555', '4.285'], 'COM_2': ['9.299', '3.04'], 'COM_3': ['8.094', '1.827'], 'COM_4': ['7.178', '0.922'], 'COM_5': ['5.738', '-0.533'], 'COM_6': ['5.547', '-0.708'], 'COM_7': ['4.51', '-1.737'], 'COM_8': ['3.802', '-2.458'], 'COM_9': ['2.729', '-3.53'], 'COM_10': ['1.491', '-4.775'], 'COM_11': ['0.279', '-5.958'], 'COM_12': ['-0.602', '-6.872'], 'COM_13': ['-2.051', '-8.284'], 'COM_14': ['-2.032', '-8.303'], 'COM_15': ['-2.042', '-8.309']}, {'COM_0': ['12.301', '6.923'], 'COM_1': ['11.305', '5.914'], 'COM_2': ['9.986', '4.588'], 'COM_3': ['8.86', '3.474'], 'COM_4': ['7.92', '2.519'], 'COM_5': ['6.543', '1.142'], 'COM_6': ['6.181', '0.773'], 'COM_7': ['5.227', '-0.192'], 'COM_8': ['4.463', '-0.938'], 'COM_9': ['3.463', '-1.96'], 'COM_10': ['2.143', '-3.272'], 'COM_11': ['1.031', '-4.388'], 'COM_12': ['0.078', '-5.325'], 'COM_13': ['-1.285', '-6.703'], 'COM_14': ['-1.277', '-6.697'], 'COM_15': ['-1.276', '-6.706']}, {'COM_0': ['11.677', '5.875'], 'COM_1': ['10.602', '4.81'], 'COM_2': ['9.389', '3.608'], 'COM_3': ['8.186', '2.401'], 'COM_4': ['7.26', '1.474'], 'COM_5': ['5.793', '0.036'], 'COM_6': ['5.429', '-0.36'], 'COM_7': ['4.391', '-1.388'], 'COM_8': ['3.737', '-2.101'], 'COM_9': ['2.677', '-3.15'], 'COM_10': ['1.466', '-4.352'], 'COM_11': ['0.249', '-5.557'], 'COM_12': ['-0.652', '-6.452'], 'COM_13': ['-2.099', '-7.888'], 'COM_14': ['-2.085', '-7.903'], 'COM_15': ['-2.08', '-7.893']}, {'COM_0': ['10.631', '4.737'], 'COM_1': ['9.385', '3.494'], 'COM_2': ['8.186', '2.285'], 'COM_3': ['7.299', '1.369'], 'COM_4': ['5.823', '-0.127'], 'COM_5': ['5.676', '-0.301'], 'COM_6': ['4.627', '-1.325'], 'COM_7': ['3.937', '-2.045'], 'COM_8': ['2.85', '-3.123'], 'COM_9': ['1.619', '-4.398'], 'COM_10': ['0.404', '-5.604'], 'COM_11': ['-0.502', '-6.528'], 'COM_12': ['-1.983', '-8.004'], 'COM_13': ['-1.965', '-7.99'], 'COM_14': ['-1.975', '-7.989'], 'COM_15': ['-1.977', '-7.988']}], [{'COM_0': ['4.258', '-3.0'], 'COM_1': ['3.243', '-4.014'], 'COM_2': ['2.565', '-4.695'], 'COM_3': ['1.547', '-5.718'], 'COM_4': ['0.44', '-6.824'], 'COM_5': ['-0.588', '-7.837'], 'COM_6': ['-1.289', '-8.541'], 'COM_7': ['-2.363', '-9.625'], 'COM_8': ['-3.621', '-10.88'], 'COM_9': ['-4.803', '-12.056'], 'COM_10': ['-5.666', '-12.931'], 'COM_11': ['-7.092', '-14.351'], 'COM_12': ['-7.215', '-14.46'], 'COM_13': ['-8.227', '-15.485'], 'COM_14': ['-8.92', '-16.191'], 'COM_15': ['-9.998', '-17.259']}, {'COM_0': ['5.302', '-1.646'], 'COM_1': ['4.256', '-2.676'], 'COM_2': ['3.597', '-3.314'], 'COM_3': ['2.595', '-4.337'], 'COM_4': ['1.343', '-5.586'], 'COM_5': ['0.298', '-6.614'], 'COM_6': ['-0.367', '-7.296'], 'COM_7': ['-1.45', '-8.36'], 'COM_8': ['-2.644', '-9.576'], 'COM_9': ['-3.833', '-10.766'], 'COM_10': ['-4.696', '-11.626'], 'COM_11': ['-6.115', '-13.064'], 'COM_12': ['-6.374', '-13.326'], 'COM_13': ['-7.42', '-14.368'], 'COM_14': ['-8.078', '-15.029'], 'COM_15': ['-9.151', '-16.099']}, {'COM_0': ['3.0', '-4.126'], 'COM_1': ['1.949', '-5.174'], 'COM_2': ['1.327', '-5.825'], 'COM_3': ['0.282', '-6.871'], 'COM_4': ['-0.831', '-7.988'], 'COM_5': ['-1.888', '-9.035'], 'COM_6': ['-2.555', '-9.716'], 'COM_7': ['-3.647', '-10.815'], 'COM_8': ['-4.863', '-12.039'], 'COM_9': ['-6.083', '-13.228'], 'COM_10': ['-6.935', '-14.081'], 'COM_11': ['-8.358', '-15.519'], 'COM_12': ['-8.74', '-15.905'], 'COM_13': ['-9.785', '-16.941'], 'COM_14': ['-10.445', '-17.606'], 'COM_15': ['-11.514', '-18.655']}, {'COM_0': ['2.197', '-5.353'], 'COM_1': ['1.531', '-6.039'], 'COM_2': ['0.539', '-7.073'], 'COM_3': ['-0.477', '-8.093'], 'COM_4': ['-1.508', '-9.14'], 'COM_5': ['-2.241', '-9.861'], 'COM_6': ['-3.305', '-10.95'], 'COM_7': ['-4.522', '-12.168'], 'COM_8': ['-5.704', '-13.354'], 'COM_9': ['-6.625', '-14.281'], 'COM_10': ['-8.057', '-15.725'], 'COM_11': ['-8.226', '-15.872'], 'COM_12': ['-9.264', '-16.932'], 'COM_13': ['-9.968', '-17.606'], 'COM_14': ['-11.053', '-18.705'], 'COM_15': ['-12.253', '-19.889']}]]}
+2024-07-08 10:41:56.676 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:56.676 - BeamTbl - INFO : Loading Beam Table by: 28.0GHz, AAKIT_NAME: ''
+2024-07-08 10:41:56.676 - BeamTbl - INFO : Beam Table version: v2.0.0
+2024-07-08 10:41:56.676 - BeamTbl - INFO : Loaded Beam Table from: /home/sunlab/mm_csi_beamforming/TLKCore/files/BeamTable/Beam_Configuration_D2245E028-28_28GHz.json
+2024-07-08 10:41:56.676 - BeamTbl - DEBUG : Saving beam file to /home/sunlab/mm_csi_beamforming/TLKCore/files/BeamTable/Beam_Configuration_D2245E028-28_28GHz.json
+2024-07-08 10:41:56.676 - Device - INFO : [D2245E028-28] Set Freq: 28.000000 OK
+2024-07-08 10:41:56.676 - TLKCoreService - DEBUG : Calling func: 'getOperatingFreq()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.676 - TLKCoreService - DEBUG : Calling func: 'queryCaliTableVer()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.676 - Device - DEBUG : Calling dev_func: 'queryCaliTableVer()'with () and {}
+2024-07-08 10:41:56.676 - TLKCoreService - DEBUG : Calling func: 'getDR()'with ('D2245E028-28', <RFMode.RX: 1>) and {}
+2024-07-08 10:41:56.676 - Device - DEBUG : Calling dev_func: 'getDR()'with (<RFMode.RX: 1>,) and {}
+2024-07-08 10:41:56.676 - TLKCoreService - DEBUG : Calling func: 'getAAKitList()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.676 - Device - DEBUG : Calling dev_func: 'getAAKitList()'with () and {}
+2024-07-08 10:41:56.676 - AAKitTbl - INFO : Parsing (TMYTEK_28ONE_4x4_C2245E029-28)/home/sunlab/mm_csi_beamforming/TLKCore/files/AAKIT_TMYTEK_28ONE_4x4_C2245E029-28.csv done
+2024-07-08 10:41:56.676 - AAKitTbl - INFO : Parsing (TMYTEK_28ONE_4x4_C2245E030-28)/home/sunlab/mm_csi_beamforming/TLKCore/files/AAKIT_TMYTEK_28ONE_4x4_C2245E030-28.csv done
+2024-07-08 10:41:56.676 - TLKCoreService - DEBUG : Calling func: 'selectAAKit()'with ('D2245E028-28', 'TMYTEK_28ONE_4x4_C2245E030-28') and {}
+2024-07-08 10:41:56.676 - BeamTbl - INFO : Loading Beam Table by: 28.0GHz, AAKIT_NAME: 'TMYTEK_28ONE_4x4_C2245E030-28'
+2024-07-08 10:41:56.676 - BeamTbl - INFO : Beam Table version: v2.0.0
+2024-07-08 10:41:56.676 - BeamTbl - INFO : Loaded Beam Table from: /home/sunlab/mm_csi_beamforming/TLKCore/files/BeamTable/Beam_Configuration_D2245E028-28_28GHz_TMYTEK_28ONE_4x4_C2245E030-28.json
+2024-07-08 10:41:56.676 - BeamTbl - DEBUG : Saving beam file to /home/sunlab/mm_csi_beamforming/TLKCore/files/BeamTable/Beam_Configuration_D2245E028-28_28GHz_TMYTEK_28ONE_4x4_C2245E030-28.json
+2024-07-08 10:41:56.676 - TLKCoreService - DEBUG : Calling func: 'getBoardCount()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.676 - TLKCoreService - DEBUG : Calling func: 'getCOMDR()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.676 - Device - DEBUG : Calling dev_func: 'getCOMDR()'with () and {}
+2024-07-08 10:41:56.676 - CaliTbl - DEBUG : Fetch COMDR from cache
+2024-07-08 10:41:56.676 - TLKCoreService - DEBUG : Calling func: 'getELEDR()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.676 - Device - DEBUG : Calling dev_func: 'getELEDR()'with () and {}
+2024-07-08 10:41:56.676 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:56.676 - TLKCoreService - DEBUG : Calling func: 'getELEDR()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.676 - Device - DEBUG : Calling dev_func: 'getELEDR()'with () and {}
+2024-07-08 10:41:56.676 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:56.677 - TLKCoreService - DEBUG : Calling func: 'getELEDR()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.677 - Device - DEBUG : Calling dev_func: 'getELEDR()'with () and {}
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:56.677 - TLKCoreService - DEBUG : Calling func: 'getELEDR()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.677 - Device - DEBUG : Calling dev_func: 'getELEDR()'with () and {}
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : Fetch ELEDR from cache
+2024-07-08 10:41:56.677 - TLKCoreService - DEBUG : Calling func: 'setBeamAngle()'with ('D2245E028-28', 2.0, 0, 0) and {}
+2024-07-08 10:41:56.677 - Device - DEBUG : [AngleToPhaseMatrix] PhaseDiff, X:0.000000, Y:0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/0/0:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/0/1:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/0/2:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/0/3:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/1/0:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/1/1:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/1/2:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/1/3:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/2/0:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/2/1:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/2/2:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/2/3:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/3/0:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/3/1:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/3/2:   0.000000
+2024-07-08 10:41:56.677 - Device - DEBUG : phase 0/3/3:   0.000000
+2024-07-08 10:41:56.677 - Device - INFO : Update offset from AAKit table
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : OFFSET_TX: brd:1, offsets:[95, 115, 105, 95]
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : OFFSET_TX: brd:2, offsets:[95, 120, 110, 100]
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : OFFSET_TX: brd:3, offsets:[100, 120, 115, 100]
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : OFFSET_TX: brd:4, offsets:[90, 135, 110, 90]
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : OFFSET_RX: brd:1, offsets:[100, 120, 105, 105]
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : OFFSET_RX: brd:2, offsets:[100, 120, 110, 105]
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : OFFSET_RX: brd:3, offsets:[100, 115, 105, 100]
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : OFFSET_RX: brd:4, offsets:[90, 115, 95, 95]
+2024-07-08 10:41:56.677 - Device - DEBUG : DevCtrl-cfg0: RX 0/0, finding COMSTEPDR range {2.0 ~ 2.0}
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : Search COMSTEPDR -> COM list: ['COM_0', 'COM_1', 'COM_2']
+2024-07-08 10:41:56.677 - Device - DEBUG : DevCtrl-cfg0: RX 0/1, finding COMSTEPDR range {2.0 ~ 2.0}
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : Search COMSTEPDR -> COM list: ['COM_0', 'COM_1', 'COM_2', 'COM_3']
+2024-07-08 10:41:56.677 - Device - DEBUG : DevCtrl-cfg0: RX 0/2, finding COMSTEPDR range {2.0 ~ 2.0}
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : Search COMSTEPDR -> COM list: ['COM_0']
+2024-07-08 10:41:56.677 - Device - DEBUG : DevCtrl-cfg0: RX 0/3, finding COMSTEPDR range {2.0 ~ 2.0}
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : Search COMSTEPDR -> COM list: ['COM_0']
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : [ComData] key: RX, 0/1/[1, 2, 3, 4] gain/phase: [2.0, 2.0, 2.0, 2.0]/[100, 125, 110, 105] with com list: ['COM_0', 'COM_1', 'COM_2']
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : [ComData] Fetched from BOARD_1: {'COM_0': [[5, 27, 0.296, 0.074], [5, 30, 0.04, 0.401], [7, 28, 0.187, 2.994], [6, 26, 0.103, 2.433]], 'COM_1': [[3, 27, 0.066, 0.398], [2, 30, 0.263, 0.135], [4, 28, 0.127, 2.812], [3, 26, 0.113, 2.537]], 'COM_2': [[2, 27, 0.204, 0.424], [1, 30, 0.012, 0.355], [3, 28, 0.136, 3.08], [2, 27, 0.054, 2.983]]}
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : [ComData] key: RX, 1/1/[1, 2, 3, 4] gain/phase: [2.0, 2.0, 2.0, 2.0]/[100, 130, 115, 110] with com list: ['COM_0', 'COM_1', 'COM_2', 'COM_3']
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : [ComData] Fetched from BOARD_2: {'COM_0': [[8, 26, 0.203, 1.352], [9, 29, 0.147, 0.817], [6, 27, 0.026, 1.628], [7, 26, 0.132, 0.705]], 'COM_1': [[5, 26, 0.007, 1.311], [7, 29, 0.142, 1.044], [4, 27, 0.136, 1.615], [5, 26, 0.254, 0.224]], 'COM_2': [[4, 26, 0.15, 1.429], [5, 29, 0.122, 1.05], [2, 27, 0.295, 1.398], [3, 26, 0.168, 0.406]], 'COM_3': [[2, 26, 0.122, 1.388], [3, 29, 0.117, 1.119], [1, 27, 0.142, 2.019], [1, 26, 0.158, 0.616]]}
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : [ComData] key: RX, 2/1/[1, 2, 3, 4] gain/phase: [2.0, 2.0, 2.0, 2.0]/[90, 115, 105, 100] with com list: ['COM_0']
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : [ComData] Fetched from BOARD_3: {'COM_0': [[2, 28, 0.096, 4.088], [4, 30, 0.195, 1.002], [5, 29, 0.028, 0.811], [3, 29, 0.126, 1.487]]}
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : [ComData] key: RX, 3/1/[1, 2, 3, 4] gain/phase: [2.0, 2.0, 2.0, 2.0]/[95, 100, 100, 100] with com list: ['COM_0']
+2024-07-08 10:41:56.677 - CaliTbl - DEBUG : [ComData] Fetched from BOARD_4: {'COM_0': [[1, 27, 0.214, 1.446], [0, 27, 0.228, 2.818], [1, 27, 0.216, 0.436], [0, 26, 0.126, 1.826]]}
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/0/0, gain/phase step: 2/27 from gain/phase/COM: 2.0/100/2
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/0/1, gain/phase step: 1/30 from gain/phase/COM: 2.0/125/2
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/0/2, gain/phase step: 3/28 from gain/phase/COM: 2.0/110/2
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/0/3, gain/phase step: 2/27 from gain/phase/COM: 2.0/105/2
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/1/0, gain/phase step: 8/26 from gain/phase/COM: 2.0/100/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/1/1, gain/phase step: 9/29 from gain/phase/COM: 2.0/130/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/1/2, gain/phase step: 6/27 from gain/phase/COM: 2.0/115/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/1/3, gain/phase step: 7/26 from gain/phase/COM: 2.0/110/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/2/0, gain/phase step: 2/28 from gain/phase/COM: 2.0/90/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/2/1, gain/phase step: 4/30 from gain/phase/COM: 2.0/115/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/2/2, gain/phase step: 5/29 from gain/phase/COM: 2.0/105/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/2/3, gain/phase step: 3/29 from gain/phase/COM: 2.0/100/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/3/0, gain/phase step: 1/27 from gain/phase/COM: 2.0/95/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/3/1, gain/phase step: 0/27 from gain/phase/COM: 2.0/100/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/3/2, gain/phase step: 1/27 from gain/phase/COM: 2.0/100/0
+2024-07-08 10:41:56.677 - Device - DEBUG : [RX] idx:0/3/3, gain/phase step: 0/26 from gain/phase/COM: 2.0/100/0
+2024-07-08 10:41:56.677 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,0,0,0,0,28,30,29,29,2,4,5,3,0,0,0,0,0,26,29,27,26,8,9,6,7,0,0,0,0,0,27,30,28,27,2,1,3,2,2
+2024-07-08 10:41:56.680 - Device - INFO : setBeamAngle(): theta/phi: 0/0 with gain: 2.0 -> OK
+2024-07-08 10:41:56.680 - TLKCoreService - DEBUG : Calling func: 'getTemperatureADC()'with ('D2245E028-28',) and {}
+2024-07-08 10:41:56.681 - Device - INFO : [D2245E028-28] TC: 31,0,0,0,0,27,0,0,0,0,28,0,0,0,0,34,0,0,0,0
+2024-07-08 10:41:56.681 - Device - DEBUG : temp_sense: 34
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet1: 0
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet2: 0
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet3: 0
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet4: 0
+2024-07-08 10:41:56.681 - Device - DEBUG : temp_sense: 28
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet1: 0
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet2: 0
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet3: 0
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet4: 0
+2024-07-08 10:41:56.681 - Device - DEBUG : temp_sense: 27
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet1: 0
+2024-07-08 10:41:56.681 - Device - DEBUG : pdet2: 0
+2024-07-08 10:41:56.682 - Device - DEBUG : pdet3: 0
+2024-07-08 10:41:56.682 - Device - DEBUG : pdet4: 0
+2024-07-08 10:41:56.682 - Device - DEBUG : temp_sense: 31
+2024-07-08 10:41:56.682 - Device - DEBUG : pdet1: 0
+2024-07-08 10:41:56.682 - Device - DEBUG : pdet2: 0
+2024-07-08 10:41:56.682 - Device - DEBUG : pdet3: 0
+2024-07-08 10:41:56.682 - Device - DEBUG : pdet4: 0
+2024-07-08 10:42:00.903 - TLKCoreService - DEBUG : Calling func: 'setUDState()'with ('UD-BD22470039-24', 0, <UDState.CH1: 1>) and {}
+2024-07-08 10:42:00.904 - Device - DEBUG : Calling dev_func: 'setState()'with ('101000000',) and {}
+2024-07-08 10:42:00.904 - Device - DEBUG : cmd: UDSETSTATE 101000000
+2024-07-08 10:42:00.908 - Device - INFO : [UD-BD22470039-24] setState(): 1010000000
+2024-07-08 10:42:00.908 - TLKCoreService - DEBUG : Calling func: 'setUDState()'with ('UD-BD22470039-24', 0, <UDState.CH2: 2>) and {}
+2024-07-08 10:42:00.908 - Device - DEBUG : Calling dev_func: 'setState()'with ('100000000',) and {}
+2024-07-08 10:42:00.909 - Device - DEBUG : cmd: UDSETSTATE 100000000
+2024-07-08 10:42:00.912 - Device - INFO : [UD-BD22470039-24] setState(): 1000000000
+2024-07-08 10:42:00.913 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 1, True) and {}
+2024-07-08 10:42:00.913 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:1 -> chain:0, ic:0, ch:0 for FW
+2024-07-08 10:42:00.913 - Device - DEBUG : Set device config['TX']['DISABLE'][0][0][0] = True
+2024-07-08 10:42:00.913 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.913 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,0,0,0,0,34,37,35,32,2,3,3,4,0,0,0,0,0,38,42,41,37,5,4,2,5,0,1,0,0,0,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.916 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 2, True) and {}
+2024-07-08 10:42:00.916 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:2 -> chain:0, ic:0, ch:1 for FW
+2024-07-08 10:42:00.916 - Device - DEBUG : Set device config['TX']['DISABLE'][0][0][1] = True
+2024-07-08 10:42:00.916 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.916 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,0,0,0,0,34,37,35,32,2,3,3,4,0,0,0,0,0,38,42,41,37,5,4,2,5,0,1,1,0,0,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.919 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 3, True) and {}
+2024-07-08 10:42:00.919 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:3 -> chain:0, ic:0, ch:2 for FW
+2024-07-08 10:42:00.919 - Device - DEBUG : Set device config['TX']['DISABLE'][0][0][2] = True
+2024-07-08 10:42:00.919 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.919 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,0,0,0,0,34,37,35,32,2,3,3,4,0,0,0,0,0,38,42,41,37,5,4,2,5,0,1,1,1,0,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.922 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 4, True) and {}
+2024-07-08 10:42:00.922 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:4 -> chain:0, ic:0, ch:3 for FW
+2024-07-08 10:42:00.922 - Device - DEBUG : Set device config['TX']['DISABLE'][0][0][3] = True
+2024-07-08 10:42:00.922 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.922 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,0,0,0,0,34,37,35,32,2,3,3,4,0,0,0,0,0,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.924 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 5, True) and {}
+2024-07-08 10:42:00.925 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:5 -> chain:0, ic:1, ch:0 for FW
+2024-07-08 10:42:00.925 - Device - DEBUG : Set device config['TX']['DISABLE'][0][1][0] = True
+2024-07-08 10:42:00.925 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.925 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,0,0,0,0,34,37,35,32,2,3,3,4,0,1,0,0,0,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.927 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 6, True) and {}
+2024-07-08 10:42:00.928 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:6 -> chain:0, ic:1, ch:1 for FW
+2024-07-08 10:42:00.928 - Device - DEBUG : Set device config['TX']['DISABLE'][0][1][1] = True
+2024-07-08 10:42:00.928 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.928 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,0,0,0,0,34,37,35,32,2,3,3,4,0,1,1,0,0,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.930 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 7, True) and {}
+2024-07-08 10:42:00.930 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:7 -> chain:0, ic:1, ch:2 for FW
+2024-07-08 10:42:00.931 - Device - DEBUG : Set device config['TX']['DISABLE'][0][1][2] = True
+2024-07-08 10:42:00.931 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.931 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,0,0,0,0,34,37,35,32,2,3,3,4,0,1,1,1,0,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.933 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 8, True) and {}
+2024-07-08 10:42:00.933 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:8 -> chain:0, ic:1, ch:3 for FW
+2024-07-08 10:42:00.933 - Device - DEBUG : Set device config['TX']['DISABLE'][0][1][3] = True
+2024-07-08 10:42:00.933 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.933 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,0,0,0,0,34,37,35,32,2,3,3,4,0,1,1,1,1,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.935 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 9, True) and {}
+2024-07-08 10:42:00.935 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:9 -> chain:0, ic:2, ch:0 for FW
+2024-07-08 10:42:00.935 - Device - DEBUG : Set device config['TX']['DISABLE'][0][2][0] = True
+2024-07-08 10:42:00.935 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.936 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,1,0,0,0,34,37,35,32,2,3,3,4,0,1,1,1,1,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.938 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 10, True) and {}
+2024-07-08 10:42:00.938 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:10 -> chain:0, ic:2, ch:1 for FW
+2024-07-08 10:42:00.938 - Device - DEBUG : Set device config['TX']['DISABLE'][0][2][1] = True
+2024-07-08 10:42:00.938 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.938 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,1,1,0,0,34,37,35,32,2,3,3,4,0,1,1,1,1,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.941 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 11, True) and {}
+2024-07-08 10:42:00.941 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:11 -> chain:0, ic:2, ch:2 for FW
+2024-07-08 10:42:00.941 - Device - DEBUG : Set device config['TX']['DISABLE'][0][2][2] = True
+2024-07-08 10:42:00.941 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.941 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,1,1,1,0,34,37,35,32,2,3,3,4,0,1,1,1,1,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.944 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 12, True) and {}
+2024-07-08 10:42:00.944 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:12 -> chain:0, ic:2, ch:3 for FW
+2024-07-08 10:42:00.944 - Device - DEBUG : Set device config['TX']['DISABLE'][0][2][3] = True
+2024-07-08 10:42:00.944 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.944 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,0,0,0,0,34,34,35,33,4,4,5,6,0,1,1,1,1,34,37,35,32,2,3,3,4,0,1,1,1,1,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.947 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 13, True) and {}
+2024-07-08 10:42:00.947 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:13 -> chain:0, ic:3, ch:0 for FW
+2024-07-08 10:42:00.947 - Device - DEBUG : Set device config['TX']['DISABLE'][0][3][0] = True
+2024-07-08 10:42:00.947 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.947 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,1,0,0,0,34,34,35,33,4,4,5,6,0,1,1,1,1,34,37,35,32,2,3,3,4,0,1,1,1,1,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.950 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 14, True) and {}
+2024-07-08 10:42:00.950 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:14 -> chain:0, ic:3, ch:1 for FW
+2024-07-08 10:42:00.950 - Device - DEBUG : Set device config['TX']['DISABLE'][0][3][1] = True
+2024-07-08 10:42:00.950 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.950 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,1,1,0,0,34,34,35,33,4,4,5,6,0,1,1,1,1,34,37,35,32,2,3,3,4,0,1,1,1,1,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.953 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 15, True) and {}
+2024-07-08 10:42:00.953 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:15 -> chain:0, ic:3, ch:2 for FW
+2024-07-08 10:42:00.953 - Device - DEBUG : Set device config['TX']['DISABLE'][0][3][2] = True
+2024-07-08 10:42:00.953 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.953 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,1,1,1,0,34,34,35,33,4,4,5,6,0,1,1,1,1,34,37,35,32,2,3,3,4,0,1,1,1,1,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.955 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E027-28', 16, True) and {}
+2024-07-08 10:42:00.956 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:16 -> chain:0, ic:3, ch:3 for FW
+2024-07-08 10:42:00.956 - Device - DEBUG : Set device config['TX']['DISABLE'][0][3][3] = True
+2024-07-08 10:42:00.956 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.956 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,1,0,1,1,1,1,34,34,35,33,4,4,5,6,0,1,1,1,1,34,37,35,32,2,3,3,4,0,1,1,1,1,38,42,41,37,5,4,2,5,0,1,1,1,1,22,32,25,31,3,1,4,0,0
+2024-07-08 10:42:00.958 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 1, True) and {}
+2024-07-08 10:42:00.958 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:1 -> chain:0, ic:0, ch:0 for FW
+2024-07-08 10:42:00.959 - Device - DEBUG : Set device config['RX']['DISABLE'][0][0][0] = True
+2024-07-08 10:42:00.959 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.959 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,0,0,0,0,28,30,29,29,2,4,5,3,0,0,0,0,0,26,29,27,26,8,9,6,7,0,1,0,0,0,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.961 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 2, True) and {}
+2024-07-08 10:42:00.961 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:2 -> chain:0, ic:0, ch:1 for FW
+2024-07-08 10:42:00.961 - Device - DEBUG : Set device config['RX']['DISABLE'][0][0][1] = True
+2024-07-08 10:42:00.961 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.961 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,0,0,0,0,28,30,29,29,2,4,5,3,0,0,0,0,0,26,29,27,26,8,9,6,7,0,1,1,0,0,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.964 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 3, True) and {}
+2024-07-08 10:42:00.964 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:3 -> chain:0, ic:0, ch:2 for FW
+2024-07-08 10:42:00.964 - Device - DEBUG : Set device config['RX']['DISABLE'][0][0][2] = True
+2024-07-08 10:42:00.964 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.964 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,0,0,0,0,28,30,29,29,2,4,5,3,0,0,0,0,0,26,29,27,26,8,9,6,7,0,1,1,1,0,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.967 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 4, True) and {}
+2024-07-08 10:42:00.967 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:4 -> chain:0, ic:0, ch:3 for FW
+2024-07-08 10:42:00.967 - Device - DEBUG : Set device config['RX']['DISABLE'][0][0][3] = True
+2024-07-08 10:42:00.967 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.967 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,0,0,0,0,28,30,29,29,2,4,5,3,0,0,0,0,0,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.970 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 5, True) and {}
+2024-07-08 10:42:00.970 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:5 -> chain:0, ic:1, ch:0 for FW
+2024-07-08 10:42:00.970 - Device - DEBUG : Set device config['RX']['DISABLE'][0][1][0] = True
+2024-07-08 10:42:00.970 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.970 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,0,0,0,0,28,30,29,29,2,4,5,3,0,1,0,0,0,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.972 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 6, True) and {}
+2024-07-08 10:42:00.972 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:6 -> chain:0, ic:1, ch:1 for FW
+2024-07-08 10:42:00.973 - Device - DEBUG : Set device config['RX']['DISABLE'][0][1][1] = True
+2024-07-08 10:42:00.973 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.973 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,0,0,0,0,28,30,29,29,2,4,5,3,0,1,1,0,0,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.975 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 7, True) and {}
+2024-07-08 10:42:00.975 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:7 -> chain:0, ic:1, ch:2 for FW
+2024-07-08 10:42:00.975 - Device - DEBUG : Set device config['RX']['DISABLE'][0][1][2] = True
+2024-07-08 10:42:00.975 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.976 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,0,0,0,0,28,30,29,29,2,4,5,3,0,1,1,1,0,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.978 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 8, True) and {}
+2024-07-08 10:42:00.978 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:8 -> chain:0, ic:1, ch:3 for FW
+2024-07-08 10:42:00.978 - Device - DEBUG : Set device config['RX']['DISABLE'][0][1][3] = True
+2024-07-08 10:42:00.978 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.978 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,0,0,0,0,28,30,29,29,2,4,5,3,0,1,1,1,1,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.981 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 9, True) and {}
+2024-07-08 10:42:00.981 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:9 -> chain:0, ic:2, ch:0 for FW
+2024-07-08 10:42:00.981 - Device - DEBUG : Set device config['RX']['DISABLE'][0][2][0] = True
+2024-07-08 10:42:00.981 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.981 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,1,0,0,0,28,30,29,29,2,4,5,3,0,1,1,1,1,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.984 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 10, True) and {}
+2024-07-08 10:42:00.984 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:10 -> chain:0, ic:2, ch:1 for FW
+2024-07-08 10:42:00.984 - Device - DEBUG : Set device config['RX']['DISABLE'][0][2][1] = True
+2024-07-08 10:42:00.984 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.984 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,1,1,0,0,28,30,29,29,2,4,5,3,0,1,1,1,1,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.986 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 11, True) and {}
+2024-07-08 10:42:00.986 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:11 -> chain:0, ic:2, ch:2 for FW
+2024-07-08 10:42:00.986 - Device - DEBUG : Set device config['RX']['DISABLE'][0][2][2] = True
+2024-07-08 10:42:00.987 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.987 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,1,1,1,0,28,30,29,29,2,4,5,3,0,1,1,1,1,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.989 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 12, True) and {}
+2024-07-08 10:42:00.989 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:12 -> chain:0, ic:2, ch:3 for FW
+2024-07-08 10:42:00.989 - Device - DEBUG : Set device config['RX']['DISABLE'][0][2][3] = True
+2024-07-08 10:42:00.989 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.990 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,0,0,0,0,27,27,27,26,1,0,1,0,0,1,1,1,1,28,30,29,29,2,4,5,3,0,1,1,1,1,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.992 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 13, True) and {}
+2024-07-08 10:42:00.992 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:13 -> chain:0, ic:3, ch:0 for FW
+2024-07-08 10:42:00.992 - Device - DEBUG : Set device config['RX']['DISABLE'][0][3][0] = True
+2024-07-08 10:42:00.992 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.992 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,1,0,0,0,27,27,27,26,1,0,1,0,0,1,1,1,1,28,30,29,29,2,4,5,3,0,1,1,1,1,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.994 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 14, True) and {}
+2024-07-08 10:42:00.994 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:14 -> chain:0, ic:3, ch:1 for FW
+2024-07-08 10:42:00.994 - Device - DEBUG : Set device config['RX']['DISABLE'][0][3][1] = True
+2024-07-08 10:42:00.995 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.995 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,1,1,0,0,27,27,27,26,1,0,1,0,0,1,1,1,1,28,30,29,29,2,4,5,3,0,1,1,1,1,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.997 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 15, True) and {}
+2024-07-08 10:42:00.997 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:15 -> chain:0, ic:3, ch:2 for FW
+2024-07-08 10:42:00.997 - Device - DEBUG : Set device config['RX']['DISABLE'][0][3][2] = True
+2024-07-08 10:42:00.997 - Device - DEBUG : Take dev config
+2024-07-08 10:42:00.997 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,1,1,1,0,27,27,27,26,1,0,1,0,0,1,1,1,1,28,30,29,29,2,4,5,3,0,1,1,1,1,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:00.999 - TLKCoreService - DEBUG : Calling func: 'switchChannel()'with ('D2245E028-28', 16, True) and {}
+2024-07-08 10:42:00.999 - Device - DEBUG : BoardCh->ChainICCh: board:-1, ch:16 -> chain:0, ic:3, ch:3 for FW
+2024-07-08 10:42:00.999 - Device - DEBUG : Set device config['RX']['DISABLE'][0][3][3] = True
+2024-07-08 10:42:00.999 - Device - DEBUG : Take dev config
+2024-07-08 10:42:01.  0 - Device - DEBUG : Send Beam SCPI cmd: MODULE_CTRL_ 4,2,0,1,1,1,1,27,27,27,26,1,0,1,0,0,1,1,1,1,28,30,29,29,2,4,5,3,0,1,1,1,1,26,29,27,26,8,9,6,7,0,1,1,1,1,27,30,28,27,2,1,3,2,2
+2024-07-08 10:42:01.  2 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-08 10:42:01.  2 - TLKCoreService - DEBUG : DeInit for D2245E028-28
+2024-07-08 10:42:01.  2 - TLKCoreService - DEBUG : DeInit for D2245E027-28
+2024-07-08 10:42:01.  2 - TLKCoreService - DEBUG : DeInit for UD-BD22470039-24
+2024-07-08 10:42:01.  2 - Comm - DEBUG : Closed socket
+2024-07-08 10:42:01.  2 - Device - DEBUG : Del object: UDBox
+2024-07-08 10:42:01. 65 - Comm - DEBUG : Closed socket
+2024-07-08 10:42:01. 65 - Device - DEBUG : Del object: BBoxOne28A
+2024-07-08 10:42:01. 65 - Comm - DEBUG : Closed socket
+2024-07-08 10:42:01. 65 - Device - DEBUG : Del object: BBoxOne28A

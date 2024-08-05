@@ -1,0 +1,283 @@
+2024-07-08 13:08:43.984 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-08 13:08:43.985 - TLKCoreService - INFO : Log file folder: /home/sunlab/mm_csi_beamforming/TLKCore/lib/tlk_core_log
+2024-07-08 13:08:43.985 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-08 13:08:43.985 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-08 13:08:43.985 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-08 13:08:43.985 - Comm - INFO : Scan LAN
+2024-07-08 13:08:43.985 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-08 13:08:43.985 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-08 13:08:43.985 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-08 13:08:43.987 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.16
+2024-07-08 13:08:43.987 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.111
+2024-07-08 13:08:43.989 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.147
+2024-07-08 13:08:44. 86 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-08 13:08:45.694 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-08 13:08:45.993 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-08 13:08:45.993 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-08 13:08:45.993 - Comm - INFO : Scan ComPort
+2024-07-08 13:08:46.  0 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-08 13:08:46.  0 - Comm - INFO : Scan USB
+2024-07-08 13:08:46.  2 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-08 13:08:46.  3 - Comm - INFO : Scanned 0 USB devices
+2024-07-08 13:08:46.  3 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-08 13:08:46.  3 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.16
+2024-07-08 13:08:46.  3 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 13:08:46.  3 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-08 13:08:46.  3 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.111
+2024-07-08 13:08:46.  3 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 13:08:46.  3 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-08 13:08:46.  3 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.147
+2024-07-08 13:08:46.  3 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-08 13:08:46.  4 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-08 14:01:42. 21 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-08 14:01:42. 21 - TLKCoreService - INFO : Log file folder: /home/sunlab/mm_csi_beamforming/TLKCore/lib/tlk_core_log
+2024-07-08 14:01:42. 21 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-08 14:01:42. 21 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-08 14:01:42. 21 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-08 14:01:42. 21 - Comm - INFO : Scan LAN
+2024-07-08 14:01:42. 22 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-08 14:01:42. 22 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-08 14:01:42. 22 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-08 14:01:42. 24 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.16
+2024-07-08 14:01:42. 24 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.111
+2024-07-08 14:01:42. 24 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.147
+2024-07-08 14:01:42.123 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-08 14:01:43.729 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-08 14:01:44. 30 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-08 14:01:44. 31 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-08 14:01:44. 31 - Comm - INFO : Scan ComPort
+2024-07-08 14:01:44. 44 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-08 14:01:44. 44 - Comm - INFO : Scan USB
+2024-07-08 14:01:44. 50 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-08 14:01:44. 50 - Comm - INFO : Scanned 0 USB devices
+2024-07-08 14:01:44. 50 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-08 14:01:44. 50 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.16
+2024-07-08 14:01:44. 50 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:01:44. 50 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-08 14:01:44. 50 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.111
+2024-07-08 14:01:44. 50 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:01:44. 50 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-08 14:01:44. 50 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.147
+2024-07-08 14:01:44. 50 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-08 14:01:44. 52 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-08 14:02:58.609 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-08 14:02:58.609 - TLKCoreService - INFO : Log file folder: /home/sunlab/mm_csi_beamforming/TLKCore/lib/tlk_core_log
+2024-07-08 14:02:58.609 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-08 14:02:58.609 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-08 14:02:58.609 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-08 14:02:58.609 - Comm - INFO : Scan LAN
+2024-07-08 14:02:58.610 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-08 14:02:58.610 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-08 14:02:58.610 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-08 14:02:58.611 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.111
+2024-07-08 14:02:58.612 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.16
+2024-07-08 14:02:58.612 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.147
+2024-07-08 14:02:58.711 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-08 14:03:00.317 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-08 14:03:00.618 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-08 14:03:00.618 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-08 14:03:00.618 - Comm - INFO : Scan ComPort
+2024-07-08 14:03:00.630 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-08 14:03:00.630 - Comm - INFO : Scan USB
+2024-07-08 14:03:00.635 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-08 14:03:00.636 - Comm - INFO : Scanned 0 USB devices
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.111
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.16
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.147
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-08 14:03:00.636 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-08 14:07:39.246 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-08 14:07:39.247 - TLKCoreService - INFO : Log file folder: /home/sunlab/mm_csi_beamforming/TLKCore/lib/tlk_core_log
+2024-07-08 14:07:39.247 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-08 14:07:39.247 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-08 14:07:39.247 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-08 14:07:39.247 - Comm - INFO : Scan LAN
+2024-07-08 14:07:39.247 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-08 14:07:39.247 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-08 14:07:39.247 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-08 14:07:39.249 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.16
+2024-07-08 14:07:39.249 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.111
+2024-07-08 14:07:39.251 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.147
+2024-07-08 14:07:39.348 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-08 14:07:40.957 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-08 14:07:41.254 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-08 14:07:41.254 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-08 14:07:41.255 - Comm - INFO : Scan ComPort
+2024-07-08 14:07:41.262 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-08 14:07:41.262 - Comm - INFO : Scan USB
+2024-07-08 14:07:41.264 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-08 14:07:41.264 - Comm - INFO : Scanned 0 USB devices
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.16
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.111
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.147
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-08 14:07:41.264 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-08 14:07:41.265 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-08 14:07:41.265 - TLKCoreService - INFO : Log file folder: /home/sunlab/mm_csi_beamforming/TLKCore/lib/tlk_core_log
+2024-07-08 14:07:41.265 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-08 14:07:41.265 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-08 14:07:41.265 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-08 14:07:41.265 - Comm - INFO : Scan LAN
+2024-07-08 14:07:41.265 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-08 14:07:41.265 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-08 14:07:41.265 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-08 14:07:41.266 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.111
+2024-07-08 14:07:41.268 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.147
+2024-07-08 14:07:41.268 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.16
+2024-07-08 14:07:41.366 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-08 14:07:42.974 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-08 14:07:43.273 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-08 14:07:43.273 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-08 14:07:43.274 - Comm - INFO : Scan ComPort
+2024-07-08 14:07:43.281 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-08 14:07:43.281 - Comm - INFO : Scan USB
+2024-07-08 14:07:43.281 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-08 14:07:43.281 - Comm - INFO : Scanned 0 USB devices
+2024-07-08 14:07:43.281 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-08 14:07:43.281 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.111
+2024-07-08 14:07:43.281 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:07:43.281 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-08 14:07:43.281 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.147
+2024-07-08 14:07:43.281 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-08 14:07:43.281 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-08 14:07:43.281 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.16
+2024-07-08 14:07:43.281 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:07:43.283 - TLKCoreService - DEBUG : Loading UDBox from: <module 'tlkcore.tmydev.DevUDBox' from '/home/sunlab/mm_csi_beamforming/TLKCore/lib/tlkcore/tmydev/DevUDBox.so'>
+2024-07-08 14:07:43.283 - Device - INFO : General device init
+2024-07-08 14:07:43.283 - Device - INFO : SN          : UD-BD22470039-24
+2024-07-08 14:07:43.283 - Device - INFO : ADDRESS     : 192.168.137.147
+2024-07-08 14:07:43.283 - Device - INFO : DEVICE_TYPE : 15
+2024-07-08 14:07:43.283 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-08 14:07:43.284 - Comm - INFO : 0) TCP connected to 192.168.137.147:5025
+2024-07-08 14:07:43.284 - Comm - INFO : Enable keepalive
+2024-07-08 14:07:43.284 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-08 14:07:43.284 - Device - DEBUG : DevUDBox init
+2024-07-08 14:07:43.284 - Comm - DEBUG : Closed socket
+2024-07-08 14:07:43.289 - Comm - INFO : 0) TCP connected to 192.168.137.147:5025
+2024-07-08 14:07:43.289 - Comm - INFO : Enable keepalive
+2024-07-08 14:07:43.289 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-08 14:07:43.289 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-08 14:07:43.289 - Device - DEBUG : cmd: QUERYFWV?
+2024-07-08 14:07:43.292 - Device - INFO : [UD-BD22470039-24] _queryFWVer(): 2.1.2
+2024-07-08 14:07:43.292 - Device - DEBUG : Calling dev_func: 'queryHWVer()'with () and {}
+2024-07-08 14:07:43.292 - Device - DEBUG : cmd: QUERYHWV?
+2024-07-08 14:07:43.294 - Device - INFO : [UD-BD22470039-24] queryHWVer(): 0013
+2024-07-08 14:07:43.294 - Device - INFO : DEV_UD_5G: 0013, FW: v2.1.2
+2024-07-08 14:07:43.294 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-08 14:07:43.294 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-08 14:07:43.297 - Device - INFO : [UD-BD22470039-24] getState(): 1000000000
+2024-07-08 14:07:43.297 - Device - INFO : Current state: {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 0, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 14:07:43.298 - TLKCoreService - DEBUG : Calling func: 'getDevTypeName()'with ('UD-BD22470039-24',) and {}
+2024-07-08 14:07:43.298 - TLKCoreService - DEBUG : Calling func: 'getUDState()'with ('UD-BD22470039-24', <UDState.PLO_LOCK: 0>) and {}
+2024-07-08 14:07:43.298 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-08 14:07:43.298 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-08 14:07:43.300 - Device - INFO : [UD-BD22470039-24] getState(): 1000000000
+2024-07-08 14:07:43.305 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-08 14:07:43.306 - TLKCoreService - DEBUG : DeInit for UD-BD22470039-24
+2024-07-08 14:07:43.306 - Comm - DEBUG : Closed socket
+2024-07-08 14:07:43.306 - Device - DEBUG : Del object: UDBox
+2024-07-08 14:09:00.932 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-08 14:09:00.932 - TLKCoreService - INFO : Log file folder: /home/sunlab/mm_csi_beamforming/TLKCore/lib/tlk_core_log
+2024-07-08 14:09:00.932 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-08 14:09:00.932 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-08 14:09:00.932 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-08 14:09:00.932 - Comm - INFO : Scan LAN
+2024-07-08 14:09:00.933 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-08 14:09:00.933 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-08 14:09:00.933 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-08 14:09:00.934 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.111
+2024-07-08 14:09:00.934 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.16
+2024-07-08 14:09:00.937 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.147
+2024-07-08 14:09:01. 34 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-08 14:09:02.642 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-08 14:09:02.941 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-08 14:09:02.941 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-08 14:09:02.941 - Comm - INFO : Scan ComPort
+2024-07-08 14:09:02.948 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-08 14:09:02.948 - Comm - INFO : Scan USB
+2024-07-08 14:09:02.950 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-08 14:09:02.950 - Comm - INFO : Scanned 0 USB devices
+2024-07-08 14:09:02.950 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-08 14:09:02.950 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.111
+2024-07-08 14:09:02.951 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:09:02.951 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-08 14:09:02.951 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.16
+2024-07-08 14:09:02.951 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:09:02.951 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-08 14:09:02.951 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.147
+2024-07-08 14:09:02.951 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-08 14:09:02.951 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-08 14:09:02.951 - TLKCoreService - INFO : ========= TLKService v2.0.0 - local=========
+2024-07-08 14:09:02.951 - TLKCoreService - INFO : Log file folder: /home/sunlab/mm_csi_beamforming/TLKCore/lib/tlk_core_log
+2024-07-08 14:09:02.951 - TLKCoreService - INFO : TLKCoreService init successfully
+2024-07-08 14:09:02.951 - Comm - INFO : ========= TMYCommService v1.1.1.5=========
+2024-07-08 14:09:02.951 - Comm - INFO : Scan device via: DevInterface.ALL
+2024-07-08 14:09:02.951 - Comm - INFO : Scan LAN
+2024-07-08 14:09:02.952 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.137.50', netmask='255.255.255.0', broadcast='192.168.137.255', ptp=None)
+2024-07-08 14:09:02.952 - Comm - DEBUG : [DOWN] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.17.0.1', netmask='255.255.0.0', broadcast='172.17.255.255', ptp=None)
+2024-07-08 14:09:02.952 - Comm - DEBUG : [UP] snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.18.0.1', netmask='255.255.0.0', broadcast='172.18.255.255', ptp=None)
+2024-07-08 14:09:02.952 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.111
+2024-07-08 14:09:02.953 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.16
+2024-07-08 14:09:02.955 - Comm - INFO : [192.168.137.50] Recv info from: 192.168.137.147
+2024-07-08 14:09:03. 53 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count:  0
+2024-07-08 14:09:04.660 - Comm - DEBUG : [192.168.137.50] UDP Timeout at the count: 19
+2024-07-08 14:09:04.959 - Comm - DEBUG : [172.18.0.1] UDP Timeout at the count: 19
+2024-07-08 14:09:04.959 - Comm - DEBUG : [172.18.0.1] Found nothing
+2024-07-08 14:09:04.960 - Comm - INFO : Scan ComPort
+2024-07-08 14:09:04.966 - Comm - DEBUG : /dev/ttyS0: ttyS0 [PNP0501]
+2024-07-08 14:09:04.966 - Comm - INFO : Scan USB
+2024-07-08 14:09:04.966 - Comm - DEBUG : Importing: <module 'ft4222' from '/home/sunlab/radioconda/envs/tmytek/lib/python3.10/site-packages/ft4222/__init__.py'>
+2024-07-08 14:09:04.966 - Comm - INFO : Scanned 0 USB devices
+2024-07-08 14:09:04.966 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E028-28
+2024-07-08 14:09:04.966 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.111
+2024-07-08 14:09:04.966 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:09:04.966 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : D2245E027-28
+2024-07-08 14:09:04.966 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.16
+2024-07-08 14:09:04.966 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 9
+2024-07-08 14:09:04.966 - TLKCoreService - DEBUG : [__parseScanedResult] SN          : UD-BD22470039-24
+2024-07-08 14:09:04.966 - TLKCoreService - DEBUG : [__parseScanedResult] ADDRESS     : 192.168.137.147
+2024-07-08 14:09:04.966 - TLKCoreService - DEBUG : [__parseScanedResult] DEVICE_TYPE : 15
+2024-07-08 14:09:04.969 - TLKCoreService - DEBUG : Loading UDBox from: <module 'tlkcore.tmydev.DevUDBox' from '/home/sunlab/mm_csi_beamforming/TLKCore/lib/tlkcore/tmydev/DevUDBox.so'>
+2024-07-08 14:09:04.969 - Device - INFO : General device init
+2024-07-08 14:09:04.969 - Device - INFO : SN          : UD-BD22470039-24
+2024-07-08 14:09:04.969 - Device - INFO : ADDRESS     : 192.168.137.147
+2024-07-08 14:09:04.969 - Device - INFO : DEVICE_TYPE : 15
+2024-07-08 14:09:04.969 - Device - INFO : DEVICE_INTERFACE : LAN
+2024-07-08 14:09:04.969 - Comm - INFO : 0) TCP connected to 192.168.137.147:5025
+2024-07-08 14:09:04.969 - Comm - INFO : Enable keepalive
+2024-07-08 14:09:04.969 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-08 14:09:04.969 - Device - DEBUG : DevUDBox init
+2024-07-08 14:09:04.969 - Comm - DEBUG : Closed socket
+2024-07-08 14:09:04.975 - Comm - INFO : 0) TCP connected to 192.168.137.147:5025
+2024-07-08 14:09:04.975 - Comm - INFO : Enable keepalive
+2024-07-08 14:09:04.975 - Comm - DEBUG : [Linux] Setting TCP keepalive: idle=10s, interval=5s
+2024-07-08 14:09:04.975 - Device - DEBUG : Calling dev_func: '_queryFWVer()'with () and {}
+2024-07-08 14:09:04.975 - Device - DEBUG : cmd: QUERYFWV?
+2024-07-08 14:09:04.977 - Device - INFO : [UD-BD22470039-24] _queryFWVer(): 2.1.2
+2024-07-08 14:09:04.978 - Device - DEBUG : Calling dev_func: 'queryHWVer()'with () and {}
+2024-07-08 14:09:04.978 - Device - DEBUG : cmd: QUERYHWV?
+2024-07-08 14:09:04.980 - Device - INFO : [UD-BD22470039-24] queryHWVer(): 0013
+2024-07-08 14:09:04.980 - Device - INFO : DEV_UD_5G: 0013, FW: v2.1.2
+2024-07-08 14:09:04.980 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-08 14:09:04.980 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-08 14:09:04.983 - Device - INFO : [UD-BD22470039-24] getState(): 1000000000
+2024-07-08 14:09:04.983 - Device - INFO : Current state: {'PLO_LOCK': 1, 'CH1': 0, 'CH2': 0, 'OUT_10M': 0, 'OUT_100M': 0, 'SOURCE_100M': 0, 'LED_100M': 0, 'PWR_5V': 0, 'PWR_9V': 0}
+2024-07-08 14:09:04.983 - TLKCoreService - DEBUG : Calling func: 'getDevTypeName()'with ('UD-BD22470039-24',) and {}
+2024-07-08 14:09:04.983 - TLKCoreService - DEBUG : Calling func: 'getUDState()'with ('UD-BD22470039-24', <UDState.PLO_LOCK: 0>) and {}
+2024-07-08 14:09:04.983 - Device - DEBUG : Calling dev_func: 'getState()'with () and {}
+2024-07-08 14:09:04.983 - Device - DEBUG : cmd: UDGETSTATE
+2024-07-08 14:09:04.986 - Device - INFO : [UD-BD22470039-24] getState(): 1000000000
+2024-07-08 14:09:04.991 - TLKCoreService - DEBUG : DeInit TLKCore Service
+2024-07-08 14:09:04.991 - TLKCoreService - DEBUG : DeInit for UD-BD22470039-24
+2024-07-08 14:09:04.991 - Comm - DEBUG : Closed socket
+2024-07-08 14:09:04.992 - Device - DEBUG : Del object: UDBox
