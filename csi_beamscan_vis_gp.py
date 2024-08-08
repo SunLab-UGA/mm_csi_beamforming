@@ -4,6 +4,9 @@
 import pickle
 import plotly.graph_objects as go
 import plotly.express as px
+import matplotlib.pyplot as plt
+from matplotlib.axes import Axes
+from matplotlib.figure import Figure
 import glob
 import os
 import time
@@ -119,6 +122,55 @@ def convert_to_cartesian(theta, phi):
     z = np.cos(np.deg2rad(theta))
     return x, y, z
 
+def save_image(data, filename):
+    # plot/save the an output image files as a heatmap png
+    dpi = 100
+    fig:Figure; ax:Axes # type hinting
+    fig, ax = plt.subplots(figsize=(linespace_density/100, linespace_density/100), dpi=dpi)
+    ax.axis('off')
+    ax.imshow(data, cmap='viridis', origin='lower')
+    ax.set_aspect('equal')
+    plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
+    fig.savefig(filename, dpi=dpi)
+    print(f"plot saved to {filename}")
+
+def extract_plot_data(data: list[dict],csi_channel:str|int='avg') -> tuple[np.ndarray, np.ndarray]:
+    '''Extract the plot data from the given data
+    data: the loaded data from the pickle file
+    csi_channel: the channel to extract the data from, default is 'avg'
+        the magnitude is calculated regardless of the channel selection
+    returns: the theta_phi and avg_csi_mag as numpy arrays'''
+    # parse the csi_channel
+    if csi_channel == 'avg':
+        csi_channel = 'avg_csi'
+    elif isinstance(csi_channel, int):
+        if csi_channel >= 0 and csi_channel <= 52:
+            channel_index = csi_channel
+            csi_channel = f'csi'
+    else:
+        raise ValueError("csi_channel must be 'avg' or 'int (0-52)'")
+
+    theta_phi = []
+    z_axis = []
+    csi_mag = []
+    for entry in data:
+        if entry[csi_channel] is None: # check if the csi contains None (the packet was not received)
+            continue # skip the entry
+        if csi_channel == 'avg_csi':
+            csi_mag.append(np.abs(entry['avg_csi']))
+        else:
+            csi_mag.append(np.abs(entry['csi'][channel_index]))
+        # Convert spherical coordinates to Cartesian coordinates for prediction and plotting
+        x, y, z = convert_to_cartesian(entry['beam']['theta'], entry['beam']['phi'])
+        theta_phi.append([x, y])
+        z_axis.append(z) # the z-axis here is the curvature of the sphere (if needed)
+    
+    # convert the lists to numpy arrays
+    theta_phi = np.array(theta_phi, dtype=np.float64)
+    csi_mag = np.array(csi_mag, dtype=np.float64)
+    
+    return theta_phi, csi_mag
+
 
 if __name__ == "__main__":
     # override the latest_file if you want to load a specific file
@@ -159,24 +211,26 @@ if __name__ == "__main__":
         if isinstance(value, str):
             print(f"\tfirst value: {value}")
 
-    # extract the plot data
-    theta_phi = []
-    z_axis = []
-    avg_csi_mag = []
-    for entry in data:
-        if entry['avg_csi'] is None: # check if the avg_csi contains None (the packet was not received)
-            continue # skip the entry
-            avg_csi_mag.append(0)
-        else:
-            avg_csi_mag.append(np.abs(entry['avg_csi']))
-        # Convert spherical coordinates to Cartesian coordinates for prediction and plotting
-            x, y, z = convert_to_cartesian(entry['beam']['theta'], entry['beam']['phi'])
-            theta_phi.append([x, y])
-            z_axis.append(z) # the z-axis here is the curvature of the sphere (if needed)
+    # # extract the plot data
+    # theta_phi = []
+    # z_axis = []
+    # avg_csi_mag = []
+    # for entry in data:
+    #     if entry['avg_csi'] is None: # check if the avg_csi contains None (the packet was not received)
+    #         continue # skip the entry
+    #         avg_csi_mag.append(0)
+    #     else:
+    #         avg_csi_mag.append(np.abs(entry['avg_csi']))
+    #     # Convert spherical coordinates to Cartesian coordinates for prediction and plotting
+    #         x, y, z = convert_to_cartesian(entry['beam']['theta'], entry['beam']['phi'])
+    #         theta_phi.append([x, y])
+    #         z_axis.append(z) # the z-axis here is the curvature of the sphere (if needed)
     
-    # convert the lists to numpy arrays
-    theta_phi = np.array(theta_phi, dtype=np.float64)
-    avg_csi_mag = np.array(avg_csi_mag, dtype=np.float64)
+    # # convert the lists to numpy arrays
+    # theta_phi = np.array(theta_phi, dtype=np.float64)
+    # avg_csi_mag = np.array(avg_csi_mag, dtype=np.float64)
+
+    theta_phi, avg_csi_mag = extract_plot_data(data, csi_channel='avg')
 
     print("data extracted")
     print(f'len of data: {len(avg_csi_mag)}')
@@ -240,7 +294,7 @@ if __name__ == "__main__":
     print()
 
     # PREDICTION =================================================================================
-    linespace_density = 100
+    linespace_density = 180 #100
     # xx,yy,aa = create_linespace(xx_range=(-200,200),yy_range=(-200,200), resolution=linespace_density)
     xx,yy,aa = create_linespace(xx_range=(-1,1),yy_range=(-1,1), resolution=linespace_density)
     print("prediction linespace created")
@@ -251,7 +305,13 @@ if __name__ == "__main__":
     yy_pred = yy_pred.reshape((linespace_density, linespace_density))
     yy_sigma = yy_sigma.reshape((linespace_density, linespace_density))
 
+    # PLOTTING =================================================================================
     print("plotting data and predictions")
+
+    # save the prediction as an image
+    save_image(yy_pred, latest_file.split('.')[0] + '_gp_heatmap.png')
+    save_image(yy_sigma, latest_file.split('.')[0] + '_gp_heatmap_sigma.png')
+
     # plot the original data as a scatter plot
     plot_scatter(theta_phi[:,0], theta_phi[:,1], avg_csi_mag, title=header,
                     save_filename=latest_file, filename_suffix="_original_data", show=False)
@@ -263,6 +323,10 @@ if __name__ == "__main__":
     plot_heatmap_gp(xx, yy, yy_sigma, title=header, save_filename=latest_file, filename_suffix="_mse", show=False)
     # plot as a heatmap (2D)
     plot_heatmap_gp(xx, yy, yy_pred, title=header, save_filename=latest_file, show=True)
+
+
+
+
 
     # print original data
     # print("plotting original data")

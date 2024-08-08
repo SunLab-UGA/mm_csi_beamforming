@@ -1,6 +1,5 @@
 # this is the main file for producing a beamscan with the Tymtek wrapper and sdr 802_11 csi data
 
-import argparse
 import logging
 import logging.config
 import os
